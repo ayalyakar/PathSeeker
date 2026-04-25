@@ -113,12 +113,80 @@
 - **A-Q13** Render target framerate / resolution.
 - **A-Q14** Day/night and weather fidelity.
 
-## Tech and Engine (T-Q) — Pending Q30–Q44
+## Tech and Engine (T-Q)
 
-(Will be populated when the user answers questions 30–44.)
+- **T-Q1** Engine: confirm Godot 4 vs Unity 6 vs other.
+- **T-Q2** Language polyglot proposal vs single-language stance.
+- **T-Q3** Data layer: hybrid stack (JSON → SQLite → in-memory + graph)
+  vs another shape.
+- **T-Q4** Windows version baseline + minimum hardware target.
+- **T-Q5** Plugin system: confirm folder layout proposal; manifest
+  format (TOML / JSON / YAML / custom).
+- **T-Q6** Local LLM inference backend (llama.cpp / vLLM / koboldcpp /
+  Ollama / ExLlamaV2 / custom).
+- **T-Q7** Local LLM model lineup for narrative / rules / NSFW.
+- **T-Q8** Image-gen stack (ComfyUI hand-built vs Forge / A1111 /
+  InvokeAI; checkpoints PonyXL / Illustrious / NoobAI / merges).
+- **T-Q9** TTS toolchain (cloud-only / local-only / hybrid).
+- **T-Q10** Voice cloning sources policy.
+- **T-Q11** 3D character pipeline: Koikatsu/HoneySelect/Daz exports
+  vs custom rig from day one.
+- **T-Q12** Repo strategy for generated assets (Git-LFS vs separate
+  repo vs external store).
+- **T-Q13** Spike lifecycle policy (time-box, removal rules).
+- **T-Q14** Test strategy for rules engine + content pipeline.
+- **T-Q15** Source format choice (YAML / JSON / TOML / Markdown+FM).
+- **T-Q16** Future runtime LLM — sketch interface now or defer.
+- **T-Q17** Source-control branching (main directly vs feature branches).
+
+## Workflow (W-Q)
+
+- **W-Q1** `LORE`, `RULES`, `BACKLOG`: single root files vs folders
+  with sub-files. **Blocks creation of any of these structures.**
+- **W-Q2** `BACKLOG` format (Markdown checklist, task IDs, status,
+  links to design docs).
+- **W-Q3** `RULES` ambiguity: project rules (overlap with *Workflow*)
+  vs PF2e mechanics rules. Disambiguate.
+- **W-Q4** Working-session mode declaration ritual (explicit vs
+  inferred).
+- **W-Q5** End-of-session decision-summary style.
+- **W-Q6** Re-import policy for previously-imported extracts.
 
 ---
 
 ## Resolved Questions Archive
 
-(none yet)
+### Q30–Q44 (Tech and Engine, Workflow)
+
+- **Q30** Engine preference → **Godot, Unity fallback** (final
+  choice pending T-Q1 confirmation).
+- **Q31** Language → **Best-for-project**, options to be presented
+  (T-Q2). User wants assistant to suggest options.
+- **Q32** Data layer → **Best-of-all-worlds**, hybrid stack proposed
+  (T-Q3). User wants assistant to suggest options.
+- **Q33** Licensing → **Personal project, no copyright/license/
+  censoring concerns. Not for redistribution.**
+- **Q34** Platform → **Windows-only.**
+- **Q35** Solo dev → **Yes, with assistant. First-class plugin
+  system would benefit the project.**
+- **Q36** LLM-driven content → **Dev-time only**, with a possible
+  future runtime caveat (T-Q16).
+- **Q37** *(Not decided / already answered — left as no-op.)*
+- **Q38** AI use at dev-time → **Complete use across modalities
+  with user supervision; nothing ships without explicit approval.**
+- **Q39** TTS modality mix → **Mix of all options at dev-time**
+  (specifics in T-Q9).
+- **Q40** Working style → **Mandatory Q&A loop: assistant asks
+  tons of questions, user decides; assistant suggests options when
+  user is unsure. Especially during extract-by-extract Pathfinder
+  content imports.** Captured in *Workflow*.
+- **Q41** Living docs → **DESIGN organized as established; LORE,
+  RULES, BACKLOG (actionable only) files welcome.** Layout pending
+  W-Q1.
+- **Q42** Mode → **Alternate between design-doc work and
+  prototyping/vertical-slice work.** Captured in *Workflow* §6.
+- **Q43** Speculative throwaway code → **Allowed, must be removed
+  once real code shipped.** Captured in *Workflow* §7 + *Tech and
+  Engine* §8.
+- **Q44** Autonomous defaults → **Forbidden. User decides every
+  question, including low-stakes ones.** Captured in *Workflow* §1.
