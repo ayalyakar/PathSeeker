@@ -18,6 +18,31 @@
 - **High-quality UX/UI** for spellcasting, preparation, research, and
   metamagic. The magic interface is itself a feature of the game.
 
+### 1.1 Resource Model (resolved M-Q2)
+
+> **Spell slots RAW + essence-tier reagents.** Both, layered.
+
+- **Spell slots are preserved exactly as PF2e Remaster RAW** —
+  daily-prepared/spontaneous slots per rank, focus pool for focus
+  spells, cantrip economy unchanged.
+- **Additionally**, every spell cast consumes **essence-tier
+  reagents** matched to the spell's rank/tradition. Casting a
+  rank-3 fire spell costs both a rank-3 slot **and** rank-3
+  essence reagents (specific reagent type tied to tradition /
+  element / school under the alchemical-rational rework).
+- **Implications**:
+  - Casters must source, craft, or buy reagents — links Magic
+    deeply to *Crafting*, *Economy*, and *Travel*.
+  - Out-of-supply casters are constrained even with slots
+    available — adds resource-management depth.
+  - Free-with-effort cantrips and focus spells: still consume
+    *minor* reagents (a candle, a pinch of dust) — small but
+    presence-asserting.
+  - Reagent-less casting requires special feats, items, or
+    ritual conditions; not the default.
+- **The reagent system is the alchemical-rational rework's
+  most visible mechanical face.**
+
 ## 2. Implications of "Alchemical / Rational"
 
 (Working hypotheses — to be designed thoroughly.)
@@ -48,8 +73,8 @@
 
 - M-Q1. Spell preparation — preserved (spellbook, daily prep) or
   reshaped into a study/research loop?
-- M-Q2. Spell slots — kept as resource axis, or replaced with a single
-  resource (mana/focus/essence)?
+- ~~M-Q2.~~ **Resolved.** Slots RAW + essence-tier reagents (both
+  layered). See §1.1.
 - M-Q3. Reagents — universally required for all magic, or only ritual /
   high-tier?
 - M-Q4. Spontaneous vs prepared casters — how does the rework treat the

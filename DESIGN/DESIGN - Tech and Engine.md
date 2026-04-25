@@ -12,9 +12,28 @@
 
 ---
 
-## 1. Engine
+## 1. Engine (resolved T-Q1)
 
-User preference: **Godot, with Unity as a fallback.**
+> **Godot 4 (latest stable).** Confirmed.
+
+### 1.1 Immediate consequences
+
+- Build, prototype, and ship target is **Godot 4.x** — the latest
+  stable release at decision time, with rolling upgrades as new
+  stable releases land.
+- **Anime/cel-shader spike scheduled** as a top backlog item: 1–2
+  weeks of focused shader work to validate that the *Art and
+  Presentation* §1.1 three-way blend (Genshin ramp + HSR warmth +
+  Hades silhouette) is achievable in Godot 4. This is the largest
+  unknown-unknown for the engine choice.
+- **C# support** in Godot 4 is the assumed scripting baseline (per
+  the polyglot proposal in §2, pending T-Q2 confirmation).
+- **Plugin / mod system** uses Godot's native `addons` + `.pck`
+  loading conventions (per T-Q5 proposal, pending confirmation).
+- **Render pipeline**: Forward+ for our target hardware (per T-Q4,
+  Windows-only, pending hardware-floor confirmation).
+
+### 1.2 Reference table (kept for record)
 
 | Aspect | Godot 4 | Unity 6 |
 |---|---|---|
@@ -262,8 +281,7 @@ Proposed convention:
 
 ## 10. Open Questions (Tech-Local)
 
-- **T-Q1.** Engine: confirm Godot 4 (latest stable as of decision time)
-  vs Unity 6 vs other (Unreal, Bevy, custom). Recommendation: Godot 4.
+- ~~T-Q1.~~ **Resolved.** Godot 4 (latest stable). See §1.
 - **T-Q2.** Language polyglot: confirm proposal in §2 (C# core +
   GDScript glue + C++/Rust reserved + Python tooling) or pick a
   single-language stance (e.g., all-C# / all-GDScript).

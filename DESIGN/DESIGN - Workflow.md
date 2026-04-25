@@ -87,14 +87,40 @@ When the assistant asks questions, the assistant:
 
 - All design decisions live in `DESIGN/` as `DESIGN - <Domain>.md`
   files, capitalized with spaces around the dash.
-- Folders are capitalized.
+- Folders are capitalized; multi-word folder names use spaces.
 - Cross-references use *italic Domain Name*.
 - Each design doc ends with an **Open Questions** section using a
-  per-doc prefix (V-Q, R-Q, L-Q, C-Q, M-Q, N-Q, A-Q, T-Q, etc.).
+  per-doc prefix (V-Q, R-Q, L-Q, C-Q, M-Q, N-Q, A-Q, T-Q, W-Q, etc.).
 - The cross-doc registry of unresolved questions lives in
   `DESIGN - Open Questions.md`.
 - When a question is resolved, it folds into the parent doc and is
   archived in `DESIGN - Open Questions.md`.
+
+### 5.1 Sibling Project Folders (resolved W-Q1, W-Q3)
+
+> **`Lore/`, `Rules/`, `Backlog/` are folders, each containing
+> `<Folder> - <Sub>.md` files.** Same convention as `DESIGN/`.
+
+Disambiguated meanings:
+
+- **`Lore/`** — the in-fiction Golarion content corpus (canon as we
+  use it, plus our reworks in-place). Files like `Lore - Cosmology.md`,
+  `Lore - Inner Sea Region.md`, `Lore - Reworks.md`, etc. The
+  *design discussion* about lore reworks lives in
+  `DESIGN/DESIGN - Lore Reworks.md`; the *content* lives in `Lore/`.
+- **`Rules/`** — the **PF2e mechanical rules reference** for our
+  project. Two layers:
+  - **Untouched PF2e Remaster rules** as the canonical reference
+    (e.g., `Rules - Conditions (Untouched).md`, `Rules - Combat
+    Actions (Untouched).md`).
+  - **Project-reworked rules** documenting our adaptations to
+    real-time, alchemical magic, etc. (e.g., `Rules - Combat
+    (Project).md`, `Rules - Magic Resource (Project).md`).
+  - The *design discussion* about rules lives in `DESIGN/`; the
+    *consolidated reference* lives in `Rules/`.
+- **`Backlog/`** — actionable tasks only. No design discussion.
+  Files like `Backlog - Engine.md`, `Backlog - Content Pipeline.md`,
+  `Backlog - Spikes.md`. Format pending W-Q2.
 
 ## 6. Two-Track Working Mode
 
@@ -163,18 +189,13 @@ The assistant should **never**:
 
 ## 12. Open Questions (Workflow-Local)
 
-- **W-Q1.** Should `LORE`, `RULES`, and `BACKLOG` be **single files**
-  at the project root (`LORE.md`, `RULES.md`, `BACKLOG.md`), or
-  **folders** (`Lore/`, `Rules/`, `Backlog/`) containing
-  domain-organized sub-files?
-  - The user's stated organizational preference (capitalized folder
-    names, neat sub-domains) leans toward folders, but the user said
-    "files welcome." **Asking before creating.**
-- **W-Q2.** Should `BACKLOG` use a specific format (Markdown checklist,
-  task IDs, status tags, links to design docs)?
-- **W-Q3.** Should `RULES.md` (project rules) be separate from
-  `DESIGN - Workflow.md` (project workflow), or are they the same
-  thing? "RULES" might mean "PF2e rules" (mechanics) instead — clarify.
+- ~~W-Q1.~~ **Resolved.** `Lore/`, `Rules/`, `Backlog/` are folders
+  with `<Folder> - <Sub>.md` sub-files. See §5.1.
+- **W-Q2.** Should `Backlog/` use a specific format (Markdown
+  checklist, task IDs, status tags, links to design docs)?
+- ~~W-Q3.~~ **Resolved.** `Rules/` = PF2e mechanical rules (untouched
+  reference + project-reworked layer). Project laws/workflow live in
+  *Workflow*, not in `Rules/`. See §5.1.
 - **W-Q4.** Working-session declaration ritual: do we explicitly type
   "design mode" / "prototyping mode" at session start, or do we
   infer from context?

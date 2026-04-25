@@ -105,8 +105,22 @@ Required pillars (each will get its own design doc):
 - Implication: the game must be tolerant to crash and to interruption
   inside long scenes (transactional state).
 
+### 6.1 New Game Semantics (resolved L-Q4)
+
+- **Fresh world per save.** Each new game spawns a fresh Golarion.
+- No cross-save persistence; no dynasty-across-runs system; no shared
+  world between protagonist generations.
+- Gherman is **narratively quasi-immortal** at the macro level —
+  failures and severe wounds resolve in-game (capture, scarring,
+  comatose recovery, magical revival, divine intervention with cost,
+  etc.) but the *world itself* belongs to a single playthrough.
+- Implication: no "ancestor mode" or "next generation plays in your
+  Golarion" features. The "forever project" is forever in
+  *content density*, not in *cross-save persistence*.
+
 See *Open Questions* for crash recovery, multi-character saves, and
-"start a new game" semantics.
+save-slot policy. See also *Save and Persistence* for the technical
+shape.
 
 ## 7. Progression Surfaces
 
@@ -160,8 +174,8 @@ Persona social links, Pillars factions, etc.) is in scope.
   with time-skip" for known-safe routes?
 - L-Q3. Save model details: rolling autosave interval, max slots, named
   branch saves at chapter ends, single canonical save vs many?
-- L-Q4. New Game semantics: a fresh world per save, or a single "your
-  Golarion" persistent across protagonist generations?
+- ~~L-Q4.~~ **Resolved.** Fresh world per save; protagonist quasi-
+  narratively immortal; failures resolve in-game. See §6.1.
 - L-Q5. Speed-up controls — is there a "wait/sleep until" mechanic, and
   what activities qualify as time-skippable?
 - L-Q6. Aging: protagonist and NPCs age in real time? On a compressed

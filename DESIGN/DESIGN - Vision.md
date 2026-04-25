@@ -69,9 +69,34 @@ selection must all be **scene-aware** rather than globally tuned. See
 - **Pre-defined protagonist.** Not a self-insert; not a created PC.
 - Pre-defined as **human** (per NSFW design — keeps the body-systems anchor
   ancestry-stable while interacting with non-human partners).
-- Identity, name, backstory, gender, and starting circumstance: **TBD** —
-  blocks several downstream decisions (voice casting, opening cinematic,
-  starting region, default class, canonical relationships).
+
+### 4.1 Canonical Identity (resolved V-Q1)
+
+| Trait | Value |
+|---|---|
+| **Name** | **Gherman** |
+| **Gender** | Male |
+| **Age at game start** | 21 |
+| **Ancestry of origin** | **Canonically unknown** — to be discovered in-game |
+| **Backstory** | **Canonically unknown** — to be discovered in-game |
+
+The "Unknown" entries are **diegetic mystery**, not authorial deferral:
+the protagonist himself does not know his origin or past at the start of
+the game. (If this framing was meant as "TBD by us, write it later," flip
+this — see V-Q1-followup below.)
+
+### 4.2 Implications
+
+- The opening framing must explain **why** Gherman's origin and history
+  are unknown to him: amnesia, exile, abandonment-as-infant, magical
+  curse, identity-erasure ritual, etc. (See V-Q3.)
+- The **discovery of identity** is itself a long-arc plot thread.
+- All canonical-Golarion content that assumes a known origin (ancestry
+  feats triggered at level 1, ancestral languages known, family-region
+  reputation) needs a "blank-slate-protagonist" treatment.
+- Gender-fixed protagonist + pre-defined identity simplifies cinematic
+  authoring, voice casting, animation pipeline, and tailored romance
+  arcs — at the cost of the player not "being themselves."
 
 ## 5. Solo PC, Lifelike Party
 
@@ -99,12 +124,29 @@ selection must all be **scene-aware** rather than globally tuned. See
 
 ## 8. Open Questions (Vision-Local)
 
-- V-Q1. Protagonist identity baseline (gender, name, age-bracket, origin).
-- V-Q2. Does the protagonist have a fixed **class/archetype**, or do they
-  pick at character-creation-lite?
-- V-Q3. Opening framing: amnesia, exiled noble, fresh adventurer, surviving
-  catastrophe, isekai-from-Earth, in medias res, or player-elected?
-- V-Q4. Is the protagonist canonically *bisexual / pansexual / orientation-
-  fluid* (pragmatic for romance breadth) or fixed?
-- V-Q5. Does the protagonist age over the course of the game's persistent
-  timeline? (Affects long-term saves, NPC relationships, mortality stakes.)
+- ~~V-Q1.~~ **Resolved.** Gherman, Male, 21, ancestry/backstory canonically
+  unknown. See §4.
+- **V-Q1-followup.** Confirm "Unknown" means *diegetic mystery* (Gherman
+  doesn't know — discoverable in-game) rather than *authorial deferral*
+  (we'll write his origin later behind the scenes).
+- V-Q2. Does Gherman have a fixed **class/archetype**, or pick at character-
+  creation-lite? (Heightened by the "unknown origin" framing — does he
+  even know his class at start?)
+- V-Q3. **Opening framing**, now load-bearing: amnesia, exiled, abandoned,
+  cursed identity-erasure, ritual-stripped, in medias res, isekai-from-
+  Earth, recovered-from-comatose-ten-years-after-event, or other?
+- V-Q4. Gherman's canonical orientation: fixed straight, fixed bi/pan,
+  fluid, or unspecified-and-emergent-from-play?
+- V-Q5. Does Gherman age over the persistent timeline? (At 21 starting
+  age, an aging protagonist has interesting story arc potential.)
+- V-Q6. **(New)** Does Gherman have a known starting **language set**? If
+  origin is unknown, what languages does he speak at start?
+- V-Q7. **(New)** Does Gherman have any **distinctive marks** at start —
+  scars, tattoos, brands, magical sigils — that hint at origin?
+- V-Q8. **(New)** Voice profile for Gherman — accent, register, age-feel
+  of voice, emotional baseline. Drives all VO casting/cloning.
+- V-Q9. **(New)** Does Gherman have a **canonical face** (designed by us)
+  or do we offer face customization while keeping the rest fixed?
+- V-Q10. **(New)** Starting location of the game — where is Gherman when
+  the player takes control? (Inn, ship, prison cell, alley, woods,
+  battlefield, ritual chamber, …)

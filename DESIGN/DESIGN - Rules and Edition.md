@@ -102,10 +102,31 @@ Activities* (TBD).
 
 - **Golarion canonical**, with **heavy rework on selected lore and
   meta-world elements**.
-- Specific reworks: TBD; will be tracked in `DESIGN - Lore Reworks.md`
-  once we begin enumerating them.
+- Specific reworks: tracked in *Lore Reworks* and the `Lore/` folder.
 - The **Magic system** is one of the called-out reworks: less esoteric,
   more alchemical/rational. See *Magic*.
+
+## 5.1 Alignment (resolved R-Q3)
+
+**No alignment system. Wholesale Honor Remaster.**
+
+- No good/evil axis. No order/chaos axis. No 9-axis grid.
+- **No alignment-coded mechanical effects** anywhere. Anti-fiend / anti-
+  undead / anti-celestial effects use Remaster trait targeting (`holy`,
+  `unholy`, `sanctified`, `void`, `vitality`) instead.
+- **No alignment-coded NPCs.** Calistria is not "Chaotic Neutral";
+  Iomedae is not "Lawful Good." NPCs and deities have **values**,
+  **methods**, **edicts**, and **anathema**, not alignment slots.
+- **All pre-Remaster content** that referenced alignment must be
+  re-stated in Remaster terms during conversion (R-Q2 governs the
+  general policy; this is the alignment-specific sub-policy).
+- **NSFW corruption arcs** (per *NSFW*) do **not** use alignment as a
+  proxy. Corruption is a separate axis (or, if we add such axes, they
+  are domain-specific rather than alignment-shaped). See N-Q-related
+  follow-ups.
+
+Implication: any "moral compass" UI is removed; reputation is
+faction-and-value-based, not alignment-based.
 
 ## 6. Conversion Pipeline (Implied)
 
@@ -131,9 +152,8 @@ Tech choices for this pipeline: see *Tech and Engine* (pending Q30–Q44).
 - R-Q1. Variant rules baseline (Free Archetype etc.) — full enumeration.
 - R-Q2. Treatment of pre-Remaster spells/feats that were *removed* in
   Remaster (e.g., alignment-based spells): convert, drop, or rework?
-- R-Q3. Alignment system — Remaster removed alignment as a mechanical
-  axis. Confirm we follow Remaster (no alignment) vs reintroduce it as
-  flavor or as a *corruption/devotion* axis tied to NSFW/faction systems.
+- ~~R-Q3.~~ **Resolved.** Wholesale Honor Remaster: no alignment in
+  any form. See §5.1.
 - R-Q4. Multiclassing model: archetype-only (Remaster default) or
   expanded (gestalt/dual-class) variant?
 - R-Q5. Level cap: 20 RAW, 25/30 mythic-extended, or uncapped via

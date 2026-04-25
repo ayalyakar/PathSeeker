@@ -25,7 +25,40 @@ UI swagger**.
 This is a high bar. It implies a custom or heavily-modified anime PBR
 shader stack, ramp lighting, signed-distance-field outlines, real-time
 specular hair, and a robust facial-rig system. See *Tech and Engine*
-(pending) for stack implications.
+for the chosen stack (Godot 4 — confirmed, T-Q1 §1.1 cel-shader spike
+flagged).
+
+### 1.1 Cel-Shading Lighting Model (resolved A-Q3)
+
+> **Three-way blend: Genshin-style ramp + specular, Honkai Star Rail
+> warmth, and Hades-style 3D-pretending-to-be-illustration.**
+
+Concrete characteristics:
+
+- **Ramp-driven cel shading** with two-to-three light bands per
+  surface (Genshin baseline).
+- **Anime specular** (highlight kicks on hair, skin, leather, metal).
+- **Warmer painterly tone curve** than Genshin — closer to Honkai Star
+  Rail's softer skin and atmosphere.
+- **Strong silhouette discipline** — clean SDF or hybrid outlines,
+  Hades-grade readability at any distance.
+- **Painterly-feeling environment dressing** — backgrounds and props
+  composed to look hand-illustrated even when 3D, drawing from Hades
+  and Honkai Star Rail's environment philosophy.
+- **No flat Persona-style shading** — Persona's contribution is
+  reserved for *UI* (per §4) and motion-graphic flourishes, not the
+  3D scene itself.
+- **No Guilty Gear per-pixel hand-painted approach** — too costly per
+  asset for our scope.
+
+Implications:
+- Shader stack must support: ramp + specular + outline (geometry +
+  post hybrid) + painterly stylized fog + warm tone-mapping LUTs.
+- Lighting setups must hand off cleanly between exterior daylight,
+  dungeon torchlight, indoor warm lamp, magical sources, and intimate
+  candlelit interiors (NSFW).
+- Character lighting must hold up when characters are clothed,
+  partially clothed, and fully nude under varied lighting.
 
 ## 2. 2D / 2.5D / 3D
 
@@ -117,8 +150,8 @@ visibility:
 - A-Q1. 2.5D mix specifics — billboards / pre-rendered / hand-painted
   layers vs all 3D.
 - A-Q2. Outline technique — geometry, post-process, SDF, hybrid.
-- A-Q3. Cel-shading lighting model — Genshin-style ramp, Guilty-Gear
-  per-pixel hand-painted, Persona-style flat, custom blend.
+- ~~A-Q3.~~ **Resolved.** Three-way blend: Genshin ramp+specular,
+  HSR warmth, Hades silhouette/illustration. See §1.1.
 - A-Q4. Facial animation pipeline — blendshape, bone, hybrid, ARKit-
   style capture for cinematics?
 - A-Q5. Hair — card hair, strand hair, hybrid?

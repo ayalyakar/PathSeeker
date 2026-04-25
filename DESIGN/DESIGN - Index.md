@@ -10,16 +10,65 @@
 - All design docs live in `DESIGN/` at the project root.
 - File naming: `DESIGN - <Domain>.md`, capitalized, with spaces around
   the dash and inside multi-word domain names.
-- Folders elsewhere in the project follow the same capitalization
-  convention (e.g., `Source/`, `Content/`, `Engine/`, `Tools/`,
-  `Assets/`, `Tests/`, `Docs/`).
+- Folders use the same capitalization convention with spaces in
+  multi-word names. Sibling project folders use `<Folder>/<Folder> -
+  <Sub>.md` (per W-Q1).
 - Cross-references use *italic Domain Name* (matching the
   `DESIGN - <Domain>.md` filename minus prefix and extension).
 - Every doc ends with an **Open Questions** section using a
-  per-doc prefix: `V-Q*` Vision, `R-Q*` Rules and Edition, `L-Q*`
-  Core Loop and Structure, `C-Q*` Combat, `M-Q*` Magic, `N-Q*` NSFW,
-  `A-Q*` Art and Presentation, `T-Q*` Tech and Engine, `W-Q*`
-  Workflow, etc.
+  per-doc prefix. Prefix registry:
+
+| Prefix | Doc |
+|---|---|
+| `V-Q` | Vision |
+| `R-Q` | Rules and Edition |
+| `L-Q` | Core Loop and Structure |
+| `C-Q` | Combat |
+| `M-Q` | Magic |
+| `N-Q` | NSFW |
+| `A-Q` | Art and Presentation |
+| `T-Q` | Tech and Engine |
+| `W-Q` | Workflow |
+| `CP-Q` | Content Pipeline |
+| `WS-Q` | World Simulation |
+| `NPC-Q` | NPCs and Companions |
+| `SP-Q` | Save and Persistence |
+| `LR-Q` | Lore Reworks |
+| `Q-Q` | Quests and Activities |
+| `RR-Q` | Romance and Relationships |
+| `BI-Q` | Body and Identity |
+| `RD-Q` | Religion and Devotion |
+| `FR-Q` | Factions and Reputation |
+| `CR-Q` | Crafting |
+| `EC-Q` | Economy |
+| `AU-Q` | Audio |
+| `MD-Q` | Modding and Extensibility |
+| `DC-Q` | Dialogue and Conversation |
+| `SK-Q` | Skill Checks and Exploration |
+| `IE-Q` | Inventory and Equipment |
+| `LW-Q` | Locations and Worldspace |
+| `TR-Q` | Travel |
+| `SU-Q` | Survival and Body Needs |
+| `CJ-Q` | Crime and Justice |
+| `DR-Q` | Drugs and Substances |
+| `CC-Q` | Camera and Cinematography |
+| `AN-Q` | Animation Pipeline |
+| `PB-Q` | Performance Budget |
+| `NC-Q` | Naming Conventions |
+| `GL-Q` | Glossary |
+| `MC-Q` | Mass Combat |
+| `NA-Q` | Naval and Aerial |
+| `PT-Q` | Planar Travel |
+| `DA-Q` | Death and Afterlife |
+| `PI-Q` | Politics and Intrigue |
+| `TF-Q` | Tournaments and Festivals |
+| `LG-Q` | Languages |
+| `MA-Q` | Mounts and Animals |
+| `PR-Q` | Property and Businesses |
+| `LORE-Q` | `Lore/` files |
+| `RULES-Q` | `Rules/` files |
+| `BL-Q` | `Backlog/` files |
+
 - The cross-doc consolidated open-question registry lives in
   `DESIGN - Open Questions.md`.
 
@@ -32,43 +81,84 @@ questions.** Read *Workflow* before any working session.
 
 ## Status of the Corpus
 
+### Foundational (first wave, complete first drafts)
+
 | Domain | File | Status |
 |---|---|---|
-| Vision | `DESIGN - Vision.md` | First draft (Q1–Q4 captured) |
-| Rules and Edition | `DESIGN - Rules and Edition.md` | First draft (Q5–Q10 captured) |
-| Core Loop and Structure | `DESIGN - Core Loop and Structure.md` | First draft (Q11–Q15 captured) |
-| Combat | `DESIGN - Combat.md` | First draft (Q16–Q18 stub) |
-| Magic | `DESIGN - Magic.md` | Stub (rework directive only) |
-| NSFW | `DESIGN - NSFW.md` | First draft (Q19–Q24 captured) |
-| Art and Presentation | `DESIGN - Art and Presentation.md` | First draft (Q25–Q29 captured) |
-| Tech and Engine | `DESIGN - Tech and Engine.md` | First draft (Q30–Q44 captured) |
-| Workflow | `DESIGN - Workflow.md` | First draft (Q40 + Q44 codified) |
-| Open Questions | `DESIGN - Open Questions.md` | First consolidated draft |
+| Vision | `DESIGN - Vision.md` | Drafted; protagonist resolved (V-Q1) |
+| Rules and Edition | `DESIGN - Rules and Edition.md` | Drafted; alignment resolved (R-Q3) |
+| Core Loop and Structure | `DESIGN - Core Loop and Structure.md` | Drafted; new-game semantics resolved (L-Q4) |
+| Combat | `DESIGN - Combat.md` | Drafted; action-economy resolved (C-Q1) |
+| Magic | `DESIGN - Magic.md` | Drafted; resource model resolved (M-Q2) |
+| NSFW | `DESIGN - NSFW.md` | Drafted; body model resolved (N-Q1) |
+| Art and Presentation | `DESIGN - Art and Presentation.md` | Drafted; lighting resolved (A-Q3) |
+| Tech and Engine | `DESIGN - Tech and Engine.md` | Drafted; engine resolved (T-Q1) |
+| Workflow | `DESIGN - Workflow.md` | Drafted; layout resolved (W-Q1, W-Q3) |
+| Open Questions | `DESIGN - Open Questions.md` | Consolidated registry |
 
-## Domain Docs Pending Creation
+### High-priority (second wave, this turn)
 
-(Will be added as their parent domain matures.)
+| Domain | File | Status |
+|---|---|---|
+| Content Pipeline | `DESIGN - Content Pipeline.md` | Stub + open questions |
+| World Simulation | `DESIGN - World Simulation.md` | Stub + open questions |
+| NPCs and Companions | `DESIGN - NPCs and Companions.md` | Stub + open questions |
+| Save and Persistence | `DESIGN - Save and Persistence.md` | Stub + open questions |
+| Lore Reworks | `DESIGN - Lore Reworks.md` | Stub + open questions |
 
-- `DESIGN - Lore Reworks.md` — what we change about Golarion canon.
-- `DESIGN - Quests and Activities.md` — quest authoring + procgen.
-- `DESIGN - NPCs and Companions.md` — schedules, memory, AI.
-- `DESIGN - Romance and Relationships.md` — emotional layer of NSFW.
-- `DESIGN - Crafting.md` — alchemy/forge/scribe/etc.
-- `DESIGN - Economy.md` — money, work, trade, businesses.
-- `DESIGN - Factions and Reputation.md` — factional graph.
-- `DESIGN - Religion and Devotion.md` — divine relationships.
-- `DESIGN - Body and Identity.md` — body progression, transformation.
-- `DESIGN - World Simulation.md` — time, weather, ecology.
-- `DESIGN - Audio.md` — music, sfx, voice handling.
-- `DESIGN - Content Pipeline.md` — Pathfinder data → game data flow.
-- `DESIGN - Modding and Extensibility.md`
-- `DESIGN - Save and Persistence.md`
+### Mid-priority (third wave, this turn)
 
-## Sibling Project Docs (Pending User Decision on Layout — W-Q1)
+| Domain | File | Status |
+|---|---|---|
+| Quests and Activities | `DESIGN - Quests and Activities.md` | Stub + open questions |
+| Romance and Relationships | `DESIGN - Romance and Relationships.md` | Stub + open questions |
+| Body and Identity | `DESIGN - Body and Identity.md` | Stub + open questions |
+| Religion and Devotion | `DESIGN - Religion and Devotion.md` | Stub + open questions |
+| Factions and Reputation | `DESIGN - Factions and Reputation.md` | Stub + open questions |
+| Crafting | `DESIGN - Crafting.md` | Stub + open questions |
+| Economy | `DESIGN - Economy.md` | Stub + open questions |
+| Audio | `DESIGN - Audio.md` | Stub + open questions |
+| Modding and Extensibility | `DESIGN - Modding and Extensibility.md` | Stub + open questions |
 
-The user has indicated **LORE**, **RULES**, and **BACKLOG** are
-welcome. Layout (single files vs folders with sub-files) is **not yet
-decided** — see *Workflow* W-Q1.
+### Newly-proposed domains (fourth wave, this turn)
+
+| Domain | File | Status |
+|---|---|---|
+| Dialogue and Conversation | `DESIGN - Dialogue and Conversation.md` | Stub + open questions |
+| Skill Checks and Exploration | `DESIGN - Skill Checks and Exploration.md` | Stub + open questions |
+| Inventory and Equipment | `DESIGN - Inventory and Equipment.md` | Stub + open questions |
+| Locations and Worldspace | `DESIGN - Locations and Worldspace.md` | Stub + open questions |
+| Travel | `DESIGN - Travel.md` | Stub + open questions |
+| Survival and Body Needs | `DESIGN - Survival and Body Needs.md` | Stub + open questions |
+| Crime and Justice | `DESIGN - Crime and Justice.md` | Stub + open questions |
+| Drugs and Substances | `DESIGN - Drugs and Substances.md` | Stub + open questions |
+| Camera and Cinematography | `DESIGN - Camera and Cinematography.md` | Stub + open questions |
+| Animation Pipeline | `DESIGN - Animation Pipeline.md` | Stub + open questions |
+| Performance Budget | `DESIGN - Performance Budget.md` | Stub + open questions |
+| Naming Conventions | `DESIGN - Naming Conventions.md` | Stub + open questions |
+| Glossary | `DESIGN - Glossary.md` | Stub + open questions |
+
+### Speculative (fifth wave, this turn — lighter stubs)
+
+| Domain | File | Status |
+|---|---|---|
+| Mass Combat | `DESIGN - Mass Combat.md` | Light stub |
+| Naval and Aerial | `DESIGN - Naval and Aerial.md` | Light stub |
+| Planar Travel | `DESIGN - Planar Travel.md` | Light stub |
+| Death and Afterlife | `DESIGN - Death and Afterlife.md` | Light stub |
+| Politics and Intrigue | `DESIGN - Politics and Intrigue.md` | Light stub |
+| Tournaments and Festivals | `DESIGN - Tournaments and Festivals.md` | Light stub |
+| Languages | `DESIGN - Languages.md` | Light stub |
+| Mounts and Animals | `DESIGN - Mounts and Animals.md` | Light stub |
+| Property and Businesses | `DESIGN - Property and Businesses.md` | Light stub |
+
+## Sibling Project Folders
+
+| Folder | Index | Status |
+|---|---|---|
+| `Lore/` | `Lore/Lore - Index.md` | Index drafted; sub-files pending content import |
+| `Rules/` | `Rules/Rules - Index.md` | Index drafted; sub-files pending content import |
+| `Backlog/` | `Backlog/Backlog - Index.md` | Index drafted; per-domain sub-files pending W-Q2 |
 
 ## Reading Order for a New Reader
 
@@ -81,4 +171,19 @@ decided** — see *Workflow* W-Q1.
 7. `DESIGN - Combat.md`
 8. `DESIGN - Magic.md`
 9. `DESIGN - Tech and Engine.md`
-10. `DESIGN - Open Questions.md`
+10. `DESIGN - Content Pipeline.md` (gates content import)
+11. `DESIGN - World Simulation.md` (gates the lifelike-world vision)
+12. `DESIGN - NPCs and Companions.md`
+13. Other domain docs as relevant.
+14. `DESIGN - Open Questions.md` (current state of unresolved decisions)
+
+## Open Question (Index-Local)
+
+- IDX-Q1. Does the DESIGN folder need **sub-folders** now that the
+  count exceeds 35? Candidate sub-folder schemes:
+  - **(a)** Stay flat (current).
+  - **(b)** Group by layer: `DESIGN/Foundation/`, `DESIGN/Systems/`,
+    `DESIGN/World/`, `DESIGN/Tech/`, `DESIGN/Art/`, `DESIGN/Project/`.
+  - **(c)** Group by theme: `DESIGN/Core/`, `DESIGN/People/`,
+    `DESIGN/Activities/`, etc.
+  - **(d)** Other (specify).

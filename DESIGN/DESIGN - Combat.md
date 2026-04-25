@@ -18,12 +18,31 @@ feel. Reference floor: *Dragon's Dogma* for action-RPG class breadth.
 
 ## 2. Translation Principles (PF2e → Real-Time Souls-like)
 
-These are tentative and will be refined. Listed for working hypothesis.
+These are working hypotheses, refined per the **resolved C-Q1**:
 
-1. **Three-action economy → stamina + cooldown.**
-   The "1 action / 2 actions / 3 actions" cost of a PF2e ability becomes a
-   stamina cost + cast/recovery time. Multiple Attack Penalty becomes a
-   real-time stamina/swing-rate dynamic.
+> **Action-economy translation = stamina meter + per-ability cooldowns +
+> Multi-Attack-Penalty as continuous swing-rate.** All three layers
+> together, not one-or-the-other.
+
+Detailed mapping:
+
+1. **Three-action economy → stamina + per-ability cooldown +
+   continuous swing-rate.**
+   - **Stamina** is the global resource for *physical* actions
+     (attacks, dodges, sprints, blocks, special weapon arts).
+     Regenerates over time; modified by Constitution, encumbrance,
+     conditions.
+   - **Per-ability cooldowns** apply to discrete special abilities,
+     class feats, signature techniques. Some abilities are "always
+     available, costs stamina"; others are "cooldown-gated, may also
+     cost stamina."
+   - **Multi-Attack-Penalty as swing-rate dynamic**: the more rapidly
+     the player swings within a short window, the higher the
+     under-the-hood penalty to attack rolls — directly mirroring
+     PF2e's MAP. The player *feels* this as accuracy degradation
+     when mashing rather than as an explicit -5/-10 number.
+   - Magical / cast-time abilities (see *Magic*) use a parallel
+     *cast-time + interruptibility* model rather than stamina.
 2. **Reactions → real-time interrupts.** Attack of Opportunity, Shield
    Block, etc. become *parry/riposte/block* timing windows.
 3. **Attack rolls happen under the hood.** Player input (light attack,
@@ -115,7 +134,8 @@ Hooks only — full design is in *Magic*. Confirmed:
 
 ## 9. Open Questions (Combat-Local)
 
-- C-Q1. Stamina vs cooldown vs hybrid for the action-economy translation.
+- ~~C-Q1.~~ **Resolved.** Hybrid: stamina + per-ability cooldowns +
+  MAP-as-swing-rate. See §2.
 - C-Q2. Lock-on camera (Souls) vs full free-aim (Skyrim/RDR2)?
 - C-Q3. Hit-stop, posture-break, and stagger mechanics — adopted?
 - C-Q4. Weapon arts (Elden Ring) vs feats-as-actions — how feat-granted

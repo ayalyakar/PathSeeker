@@ -84,11 +84,38 @@ is woven into:
 ## 5. Player Character (NSFW-Specific Anchors)
 
 - Pre-defined **human** protagonist (per *Vision*).
+- **Gherman, male, age 21** (resolved V-Q1; see *Vision* §4.1).
   - Rationale: anchors anatomy, rigging, animation, and partner-pair
     design so the engine has a stable "main rig" while supporting any
     partner ancestry against it.
-- Body customization for the protagonist: TBD in *Open Questions*.
-- Default canonical body, identity, and orientation: TBD.
+
+### 5.1 Body Model (resolved N-Q1)
+
+> **Fixed canonical body + story-state body.** Both, layered.
+
+- **Fixed canonical body**: Gherman's base appearance, proportions,
+  and intimate anatomy are **authored by us, not slider-driven**.
+  No character-creation body editor.
+- **Story-state body**: the body **changes through play** in
+  response to in-fiction events:
+  - Training and athletics → muscle definition.
+  - Hunger / asceticism / illness → leanness.
+  - Wealth and idleness → softness.
+  - Combat injuries → scars (per-location, persistent).
+  - Magical transformations → reversible or permanent shape changes.
+  - Curses, blessings, alchemy → ancestry-bordering changes.
+  - Tattoos, brands, piercings → cosmetic-but-persistent.
+  - NSFW-specific changes (per N-Q-followups below): pregnancy
+    state if shape-changed female, lactation, etc.
+- **No "build" customization slider for the player.** Visible body
+  state is always the *consequence of in-game events*.
+- **Cosmetic adornments** (clothing, hairstyle, jewelry, makeup,
+  scarification, body paint) are player-controllable as activities,
+  not as a character-creation menu.
+
+This pairs cleanly with *Vision* §4.1 (canonical identity) and the
+*Body and Identity* doc (TBD) which will codify the state-tracking
+specifics.
 
 ## 6. Hard Limits
 
@@ -142,8 +169,8 @@ respecting your "no toggles, no warnings" stance.)
 
 ## 9. Open Questions (NSFW-Local)
 
-- N-Q1. Protagonist body customization — full slider system, or
-  fixed canonical body with cosmetic-only options?
+- ~~N-Q1.~~ **Resolved.** Fixed canonical body + story-state body
+  (no slider, both layered). See §5.1.
 - N-Q2. Protagonist canonical orientation — fixed, fluid, player-
   declared during opening, or no-orientation-axis-at-all (always
   contextual)?
