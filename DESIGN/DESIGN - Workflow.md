@@ -23,6 +23,22 @@ workflow**, applied to:
 There are **no autonomous defaults**. There is **no "I'll just pick X
 unless you object"** behavior.
 
+### 1.1 Carve-out: Backlog autonomy
+
+The **only standing exception** to §1: the assistant **autonomously
+adds, edits, completes, archives, and removes** tasks in `Backlog/`
+files as work proceeds. The user reviews via diffs at commit time
+rather than approving each Backlog edit per task.
+
+This carve-out applies **only to** files inside the `Backlog/` folder.
+Every other folder (DESIGN/, Lore/, Rules/, Content/, Engine/, etc.)
+remains under §1 strict approval discipline.
+
+The carve-out exists because the Backlog is by design a high-velocity,
+low-stakes operational artifact — task lists need to track work in
+real-time without becoming a bottleneck. Standing approval is granted
+once here, captured in this section.
+
 ## 2. The Q&A Loop
 
 The standard rhythm of a working turn:
@@ -191,8 +207,9 @@ The assistant should **never**:
 
 - ~~W-Q1.~~ **Resolved.** `Lore/`, `Rules/`, `Backlog/` are folders
   with `<Folder> - <Sub>.md` sub-files. See §5.1.
-- **W-Q2.** Should `Backlog/` use a specific format (Markdown
-  checklist, task IDs, status tags, links to design docs)?
+- ~~W-Q2.~~ **Resolved.** Backlog format = `BL-NNNN` global IDs,
+  checkbox `[ ]`/`[x]` (no status tags), autonomous edits per §1.1.
+  See `Backlog/Backlog - Index.md`.
 - ~~W-Q3.~~ **Resolved.** `Rules/` = PF2e mechanical rules (untouched
   reference + project-reworked layer). Project laws/workflow live in
   *Workflow*, not in `Rules/`. See §5.1.

@@ -80,10 +80,10 @@ selection must all be **scene-aware** rather than globally tuned. See
 | **Ancestry of origin** | **Canonically unknown** — to be discovered in-game |
 | **Backstory** | **Canonically unknown** — to be discovered in-game |
 
-The "Unknown" entries are **diegetic mystery**, not authorial deferral:
-the protagonist himself does not know his origin or past at the start of
-the game. (If this framing was meant as "TBD by us, write it later," flip
-this — see V-Q1-followup below.)
+The "Unknown" entries are **diegetic mystery** (resolved
+V-Q1-followup): the protagonist himself does not know his origin
+or past at the start of the game. The discovery of identity is one
+of the long-arc plot threads — *not* an authorial deferral.
 
 ### 4.2 Implications
 
@@ -126,9 +126,8 @@ this — see V-Q1-followup below.)
 
 - ~~V-Q1.~~ **Resolved.** Gherman, Male, 21, ancestry/backstory canonically
   unknown. See §4.
-- **V-Q1-followup.** Confirm "Unknown" means *diegetic mystery* (Gherman
-  doesn't know — discoverable in-game) rather than *authorial deferral*
-  (we'll write his origin later behind the scenes).
+- ~~V-Q1-followup.~~ **Resolved.** Diegetic mystery — Gherman does
+  not know his own origin or past; discoverable in-game.
 - V-Q2. Does Gherman have a fixed **class/archetype**, or pick at character-
   creation-lite? (Heightened by the "unknown origin" framing — does he
   even know his class at start?)

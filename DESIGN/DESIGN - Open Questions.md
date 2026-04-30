@@ -12,9 +12,6 @@
 
 ### Vision (V-Q)
 
-- **V-Q1-followup** Confirm "Unknown" ancestry/backstory means *diegetic
-  mystery* (Gherman doesn't know — discoverable in-game) vs *authorial
-  deferral* (we'll write it later behind the scenes).
 - **V-Q2** Does Gherman have a fixed class/archetype, or pick at
   character-creation-lite? Heightened by V-Q1 unknown-origin framing.
 - **V-Q3** Opening framing: amnesia, exiled, abandoned, cursed
@@ -139,8 +136,6 @@
 
 ### Workflow (W-Q)
 
-- **W-Q2** `Backlog/` format (currently provisional in
-  `Backlog/Backlog - Index.md`).
 - **W-Q4** Working-session mode declaration ritual (explicit vs
   inferred).
 - **W-Q5** End-of-session decision-summary style.
@@ -248,7 +243,18 @@ files. Cross-doc highlights only listed above as needed.
 
 ## Resolved Questions Archive
 
-### Foundational decisions (this turn)
+### Foundational decisions (most recent turn)
+
+- **V-Q1-followup** → **Resolved.** "Unknown" = diegetic mystery
+  (Gherman doesn't know his own origin/backstory — discoverable
+  in-game). See *Vision* §4.1.
+- **W-Q2** → **Resolved.** Backlog format = `BL-NNNN` global IDs +
+  checkbox `[ ]`/`[x]` (no status tags) + autonomous edits per the
+  new *Workflow* §1.1 carve-out. See `Backlog/Backlog - Index.md`.
+- **(New rule)** *Workflow* §1.1 — assistant autonomously edits
+  Backlog files; standing approval granted.
+
+### Foundational decisions (initial turn)
 
 - **V-Q1** → **Resolved.** Protagonist Gherman, Male, age 21, ancestry-
   of-origin canonically unknown, backstory canonically unknown. See
