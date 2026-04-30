@@ -12,19 +12,27 @@
 
 ### Vision (V-Q)
 
-- **V-Q2** Does Gherman have a fixed class/archetype, or pick at
-  character-creation-lite? Heightened by V-Q1 unknown-origin framing.
-- **V-Q3** Opening framing: amnesia, exiled, abandoned, cursed
-  identity-erasure, ritual-stripped, in medias res, isekai-from-Earth,
-  recovered-from-comatose, other?
-- **V-Q4** Gherman's canonical orientation: fixed straight, fixed
-  bi/pan, fluid, or unspecified-and-emergent.
-- **V-Q5** Does Gherman age over the persistent timeline?
-- **V-Q6** Starting language set?
-- **V-Q7** Distinctive marks at start (scars, tattoos, brands, sigils)?
-- **V-Q8** Voice profile (accent, register, age-feel, baseline)?
-- **V-Q9** Canonical face vs face customization?
-- **V-Q10** Starting location of the game?
+- **V-Q2-followup** Concrete shape of "flexible class with unique
+  quirks" — Daggerfall-emergent / RAW-pick-with-flavor / hidden /
+  archetype-stack / custom?
+- **V-Q2-quirks** Flavor of the "unique quirks" — magical /
+  supernatural / mundane-anachronistic / mixed?
+- **V-Q3-followup** Isekai source world — Golarion-invented plane,
+  Earth, or unspecified-discovered-late?
+- **V-Q3-mechanism** What transported Gherman?
+- **V-Q6-followup** How does Gherman know Common with no Golarion
+  origin?
+- **V-Q7-followup** Meaning of tattoo `08` — pick now or defer?
+- **V-Q8-followup** Voice acquisition — clone reference vs synthetic.
+- **V-Q9-followup** Canonical face design timing.
+- **V-Q10-followup** Specific Falcon's Hollow waking location (inn /
+  tavern / temple / healer / hall).
+- **V-Q11** Scene/clip/storyboard export tooling — committed?
+  fidelity?
+- **V-Q12** Anime-archetype starter templates — convention or light
+  garnish?
+- **V-Q13** Is Gherman's isekai-outsider status perceptible to
+  Golarion NPCs?
 
 ### Rules and Edition (R-Q)
 
@@ -143,8 +151,9 @@
 
 ### Index (IDX-Q)
 
-- **IDX-Q1** Should `DESIGN/` be split into sub-folders given the
-  35+ file count?
+- ~~IDX-Q1.~~ **Resolved.** DESIGN/ split into 6 sub-folders
+  (Foundation, Systems, World, People, Tech, Art) per Option A. See
+  `DESIGN/Foundation/DESIGN - Index.md`.
 
 ---
 
@@ -243,7 +252,30 @@ files. Cross-doc highlights only listed above as needed.
 
 ## Resolved Questions Archive
 
-### Foundational decisions (most recent turn)
+### Foundational decisions (this turn)
+
+- **V-Q2** → **Resolved.** Flexible class with unique quirks
+  (exposed later). See *Vision* §4.3.
+- **V-Q3** → **Resolved.** Isekai (transported from another world)
+  + In medias res (player joins after the event); opening at
+  Falcon's Hollow / Foam River shore. See *Vision* §4.2.
+- **V-Q4** → **Resolved.** Straight. See *Vision* §4.3.
+- **V-Q5** → **Resolved.** Ages 1:1 with world from age 21.
+- **V-Q6** → **Resolved.** Common only at start.
+- **V-Q7** → **Resolved.** Tattoo `08` on inside right wrist.
+- **V-Q8** → **Resolved.** No accent, low register, apathetic
+  baseline with sarcasm/cynicism, world-worn 21.
+- **V-Q9** → **Resolved.** Single canonical face designed by us.
+- **V-Q10** → **Partially resolved.** Falcon's Hollow / found on
+  Foam River shore / wakes up in town; specific room pending
+  V-Q10-followup.
+- **IDX-Q1** → **Resolved.** DESIGN/ split into 6 sub-folders
+  (Foundation, Systems, World, People, Tech, Art). Reorg this turn.
+- **(New pillar)** *Vision* §7 — **Anime Story Basis** — game
+  is designed to produce a living world that serves as the
+  substrate for anime-style emergent stories.
+
+### Foundational decisions (previous turn)
 
 - **V-Q1-followup** → **Resolved.** "Unknown" = diegetic mystery
   (Gherman doesn't know his own origin/backstory — discoverable

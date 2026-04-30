@@ -73,10 +73,11 @@ files in a subsequent autonomous Backlog edit.
   (rules engine spike).** Standalone library that parses and rolls
   arbitrary PF2e dice expressions, including conditional bonuses
   and trait-derived modifiers.
-- **BL-0009** - [ ] **Decide: protagonist V-Q-followups.** Opening
+- **BL-0009** - [x] **Decide: protagonist V-Q-followups.** Opening
   framing (V-Q3), orientation (V-Q4), aging (V-Q5), language set
   (V-Q6), distinctive marks (V-Q7), voice profile (V-Q8), face
-  customization (V-Q9), starting location (V-Q10).
+  customization (V-Q9), starting location (V-Q10). All resolved
+  this turn except V-Q10-followup (specific Falcon's Hollow room).
 - **BL-0010** - [ ] **Decide: NSFW asset-generation filter
   policy confirmation (N-Q13).** Confirm every NSFW generation
   pipeline includes a minor-content filter at gen time.
@@ -86,13 +87,44 @@ files in a subsequent autonomous Backlog edit.
 - **BL-0012** - [ ] **Decide: repo strategy for generated assets
   (T-Q12).** Git-LFS in main repo / separate assets repo / external
   store with manifest references.
-- **BL-0013** - [ ] **Decide: DESIGN sub-folder layout (IDX-Q1).**
-  Pick layout (Foundation/Systems/World/Tech/Art/Project layered
-  vs theme-based vs other) so the reorg can run.
-- **BL-0014** - [ ] **Reorg: split DESIGN/ into sub-folders**
-  per IDX-Q1 resolution. Update Index, cross-references.
+- **BL-0013** - [x] **Decide: DESIGN sub-folder layout (IDX-Q1).**
+  Resolved this turn: Option A (6 folders — Foundation, Systems,
+  World, People, Tech, Art).
+- **BL-0014** - [x] **Reorg: split DESIGN/ into sub-folders**
+  per IDX-Q1 resolution. Executed this turn. Index updated.
 - **BL-0015** - [ ] **Reorg: split Backlog/ seed tasks into per-domain
   files** once enough tasks accumulate to warrant the split.
+- **BL-0016** - [ ] **Decide: V-Q10-followup** — specific Falcon's
+  Hollow waking location (inn / tavern / temple / private healer /
+  communal hall). → *Vision* §4.2 / §4.3.
+- **BL-0017** - [ ] **Decide: V-Q2-followup** — concrete shape of
+  Gherman's "flexible class with unique quirks." → *Vision* §4.3.
+- **BL-0018** - [ ] **Decide: V-Q3-followup** — isekai source world
+  (Golarion plane / Earth / unspecified-late) and transport
+  mechanism. → *Vision* §4.2.
+- **BL-0019** - [ ] **Decide: V-Q7-followup** — meaning of tattoo
+  `08`. Pick now or defer to play. → *Vision* §4.3.
+- **BL-0020** - [ ] **Design: Gherman canonical face concept art**
+  — V-Q9-followup timing (now vs after BL-0001 cel-shader spike).
+- **BL-0021** - [ ] **Design: Gherman voice profile — V-Q8-followup**
+  — clone-from-reference vs synthetic-from-prompt; pick a TTS
+  pipeline target (after T-Q9). → *Audio*.
+- **BL-0022** - [ ] **Anime story basis: per-domain conventions
+  pass.** Visit *Art and Presentation*, *Animation Pipeline*,
+  *Camera and Cinematography*, *Dialogue and Conversation*,
+  *Audio*, *NPCs and Companions* and add anime-conventions
+  guidance sections (per *Vision* §7).
+- **BL-0023** - [ ] **Decide: V-Q11** — scene / clip / storyboard
+  export tooling commitment + fidelity (still / video / panel /
+  full storyboard).
+- **BL-0024** - [ ] **Decide: V-Q12** — anime-archetype starter
+  templates as writing convention vs light garnish.
+- **BL-0025** - [ ] **Decide: V-Q13** — is Gherman's isekai-
+  outsider status perceptible to NPCs?
+- **BL-0026** - [ ] **Lore: Falcon's Hollow / Darkmoon Vale**
+  reference research — pull canonical material (settlement, NPCs,
+  Sitting Duck, Sarenrae chapel, Lumber Consortium, Foam River).
+  Decide reworks per *Lore Reworks* protocol when imported.
 
 ## Cross-References
 
