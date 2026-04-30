@@ -47,8 +47,13 @@ Modes (per PF2e):
 
 ## 4. Open Questions (Skill Checks and Exploration-Local)
 
-- **SK-Q1** Roll surfacing — when and how is a roll visible to
-  the player (success/fail tier, numeric, hidden)?
+- ~~**SK-Q1**~~ **Resolved (mirrors DC-Q2).** **Show numeric DC**
+  for major/consequential rolls; **show pass/fail tier** for minor
+  rolls. Threshold for "major" is context-driven (named-NPC
+  interaction, story-gate skill check, or DC ≥ a tier-defined
+  threshold). Hidden rolls are reserved for stealth-specific
+  cases where the player not knowing they were rolled-against is
+  itself the point.
 - **SK-Q2** Recall Knowledge UX — diegetic mental note, journal
   entry, screen prompt?
 - **SK-Q3** Continuous Perception model — pulse-checks, persistent

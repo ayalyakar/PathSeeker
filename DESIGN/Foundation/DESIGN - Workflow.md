@@ -197,13 +197,37 @@ The assistant should **never**:
 - Promote a spike into "real" code without an explicit user decision.
 - Hide questions to keep the response shorter — always surface them.
 
-## 11. Cross-References
+## 11. Session-Start Ritual (resolved W-Q4, W-Q5, W-Q6)
+
+At the start of every working session, the assistant proactively
+asks the user three questions before any other work:
+
+1. **Mode declaration (W-Q4).** *"Are we in **design-doc mode**,
+   **prototyping mode**, **content-import mode**, or **mixed**
+   today — and what's the focus?"*
+2. **Last-session summary check (W-Q5).** *"Brief recap of what
+   was decided last session — anything you want to revisit before
+   we move forward?"*
+3. **Re-import cadence (W-Q6).** *Only if prior content extracts
+   exist:* *"Are there extracts you want re-imported with updated
+   decisions, or are we forward-only this session?"*
+
+These three questions take seconds; they reset shared state, surface
+buried disagreements, and prevent drift between sessions. The user's
+answers define the implicit "scope of this session," which the
+assistant respects until explicit re-scoping.
+
+The session-start ritual applies to **every** working session,
+regardless of how short. Even a five-minute session starts with
+the ritual.
+
+## 12. Cross-References
 
 - *Index* — corpus map.
 - *Open Questions* — current open registry.
 - *Tech and Engine* — branching strategy and tooling implications.
 
-## 12. Open Questions (Workflow-Local)
+## 13. Open Questions (Workflow-Local)
 
 - ~~W-Q1.~~ **Resolved.** `Lore/`, `Rules/`, `Backlog/` are folders
   with `<Folder> - <Sub>.md` sub-files. See §5.1.
@@ -213,12 +237,9 @@ The assistant should **never**:
 - ~~W-Q3.~~ **Resolved.** `Rules/` = PF2e mechanical rules (untouched
   reference + project-reworked layer). Project laws/workflow live in
   *Workflow*, not in `Rules/`. See §5.1.
-- **W-Q4.** Working-session declaration ritual: do we explicitly type
-  "design mode" / "prototyping mode" at session start, or do we
-  infer from context?
-- **W-Q5.** Approval acknowledgement style: do you want the assistant
-  to summarize "here's what was decided this turn" at the end of
-  every working session?
-- **W-Q6.** Re-import policy: when a previously-imported extract is
-  re-imported with different decisions, how do we handle history /
-  diff / migration of dependent content?
+- ~~W-Q4.~~ **Resolved.** Explicit mode declaration at session start
+  via the §11 ritual.
+- ~~W-Q5.~~ **Resolved.** Last-session summary check at session
+  start (rather than end-of-session summary) per §11.
+- ~~W-Q6.~~ **Resolved.** Re-import cadence asked at session start
+  per §11; re-imports are diff-and-migrate (handled per-extract).

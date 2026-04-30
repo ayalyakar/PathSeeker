@@ -108,15 +108,11 @@ provides the **tick pulse** that drives schedule advancement.
 
 ### Tick architecture
 
-- **WS-Q1** Tick architecture. Options:
-  - **(a) Single global tick, fixed rate** — simple, predictable,
-    expensive at scale.
-  - **(b) LOD ticks (proposed in §3)** — cheap, complex, harder to
-    debug.
-  - **(c) Event-driven (no tick)** — NPCs schedule their next action
-    on a priority queue; simulation advances by jumping to the next
-    event.
-  - **(d) Hybrid LOD + event queue.**
+- ~~**WS-Q1**~~ **Resolved.** **Hybrid: single global tick + LOD-tiered.**
+  L0 (player-attended) and L1 (same-zone-off-camera) drive off the
+  global tick; L2/L3/L4 (region/continent/world) run on coarser
+  derived sub-ticks. The §3 layered model is preserved; the global
+  tick is the master clock.
 - **WS-Q2** Off-screen NPC simulation depth — full schedule + memory
   vs summarized + reconstructed when the player approaches?
 - **WS-Q3** Determinism — is the simulation deterministic given the

@@ -46,10 +46,21 @@ exchanges.
 
 ## 4. Open Questions (Dialogue and Conversation-Local)
 
-- **DC-Q1** Authoring format — branching tree (BG3), Yarn/Ink/Twine,
-  custom DSL?
-- **DC-Q2** Persuasion DC visibility — show numeric DC, show
-  pass/fail tier, hide entirely?
+- ~~**DC-Q1**~~ **Resolved (assistant pick: "best and most complete
+  option").** **Ink** (by Inkle) as the primary dialogue authoring
+  language. Rationale: most expressive of the well-supported
+  branching-narrative tools (used in *80 Days*, *Heaven's Vault*,
+  *Sorcery!*); strong Godot integration via community plugins;
+  scriptable hooks for skill-checks and game-state queries; clean
+  text format diffable in git. Falls back to embedding raw
+  Markdown-with-YAML-frontmatter for non-Ink scenes (e.g., barks,
+  static descriptions) per the *Content Pipeline* CP-Q1 hybrid.
+- ~~**DC-Q2**~~ **Resolved.** Persuasion DC visibility is **mode-
+  dependent**: **show numeric DC** for major/consequential rolls
+  (negotiation set-pieces, important persuasion moments, named-NPC
+  trust gates); **show pass/fail tier** for minor rolls (ambient
+  haggling, casual social). User accepted either; rule of thumb
+  drafted; revise on request.
 - **DC-Q3** Failure consequences — visible feedback, hidden
   reputation hit, narrative-only?
 - **DC-Q4** Real-time pressure — does an NPC react to silence,

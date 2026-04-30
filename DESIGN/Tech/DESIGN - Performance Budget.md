@@ -37,8 +37,11 @@ budgets must be explicit, not implicit.
 
 ## 4. Open Questions (Performance Budget-Local)
 
-- **PB-Q1** Hardware floor (mirrors T-Q4) — what's the minimum
-  spec we target?
+- ~~**PB-Q1** Hardware floor (mirrors T-Q4).~~ **Resolved.**
+  Baseline OS: **Windows 11**. Hardware floor: **TBD specifically**
+  but presumed mid-range modern gaming PC of late-2025/early-2026
+  era. Concrete CPU/GPU/RAM minima still to be enumerated when
+  engine spike (BL-0001) lands data.
 - **PB-Q2** Framerate target — 60 fps strict or 30 fps acceptable?
 - **PB-Q3** Resolution target — 1440p, 4K, both?
 - **PB-Q4** GPU budget split — character vs environment vs UI vs

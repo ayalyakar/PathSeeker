@@ -46,8 +46,12 @@ Hierarchy:
 
 ## 5. Open Questions (Locations and Worldspace-Local)
 
-- **LW-Q1** World scale — true-to-Golarion (~Earth-sized) or
-  compressed-for-travel?
+- ~~**LW-Q1**~~ **Resolved.** **Compressed-for-travel but
+  true-to-Golarion** — geography preserves canonical Golarion
+  (continents, regions, named locations all where they should be),
+  but the *scale* of distances is compressed so that travel times
+  remain meaningful but not soul-crushing. Specific compression
+  ratio TBD (probably an order of magnitude).
 - **LW-Q2** Cell vs open-world — Bethesda cells, Daggerfall procedural,
   full open-world (per region), hybrid?
 - **LW-Q3** Loading screens — accepted (continent transitions) vs

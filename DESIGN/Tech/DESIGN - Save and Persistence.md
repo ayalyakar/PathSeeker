@@ -121,12 +121,12 @@ subsystems), the loader must transform old saves to the new shape.
 
 ### Format
 
-- **SP-Q1** Save container format. Options:
-  - **(a) SQLite** — single file, ACID, queryable, ~MB scale.
-  - **(b) Custom binary** — fastest, opaque, modder-hostile.
-  - **(c) Folder of JSON/YAML files** — diff-able, human-readable,
-    slow at scale.
-  - **(d) Mixed: SQLite for big stuff + sidecar JSON for metadata.**
+- ~~**SP-Q1**~~ **Resolved (assistant pick: "best option").** Option
+  (d) **mixed: SQLite for the big save tables (world, NPCs, memory,
+  history) + sidecar JSON for slot metadata** (screenshot path,
+  display name, playtime). Rationale: SQLite for ACID/queryable
+  bulk; JSON metadata so the slot list can render without opening
+  the SQLite file.
 
 ### Cadence
 

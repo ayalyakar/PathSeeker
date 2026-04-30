@@ -49,7 +49,10 @@ Content/<Category>/<Plugin Name>/
 
 ## 5. Open Questions (Modding-Local)
 
-- **MD-Q1** Manifest format — TOML, JSON, YAML, custom (mirrors T-Q5).
+- ~~**MD-Q1**~~ **Resolved (assistant pick: "best option").** **TOML**
+  for plugin manifests. Rationale: cleanest for declarative
+  shallow-key configs, easiest to hand-edit, type-aware, less
+  whitespace-sensitive than YAML, supports comments unlike JSON.
 - **MD-Q2** Versioning model — semver, date-based, monotonic?
 - **MD-Q3** Dependency resolution — strict, loose, ranged?
 - **MD-Q4** Load order conflict resolution — last-wins, declared-priority,

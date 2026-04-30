@@ -282,6 +282,22 @@ Proposed convention:
 ## 10. Open Questions (Tech-Local)
 
 - ~~T-Q1.~~ **Resolved.** Godot 4 (latest stable). See §1.
+- ~~T-Q2.~~ **Resolved.** Polyglot per §2 confirmed: **C# core + GDScript
+  glue + C/C++/Rust reserved for hot paths + Python for off-engine
+  tooling.**
+- ~~T-Q3.~~ **Resolved.** Hybrid data layer per §3 confirmed:
+  **YAML/JSON source-of-truth in repo → SQLite canonical runtime →
+  in-memory hot cache → graph projection** for relationship-heavy
+  data.
+- ~~T-Q4.~~ **Resolved.** Baseline target: **Windows 11**. Hardware
+  floor pending PB-Q1.
+- ~~T-Q15 / CP-Q1.~~ **Resolved (assistant pick: "best option").**
+  **Hybrid source format**: Markdown-with-YAML-frontmatter for
+  prose-heavy content (lore, scenes, dialogue, descriptions); pure
+  YAML for stat-heavy content (spells, feats, items, monsters,
+  classes, ancestries, encounters). Rationale: best authoring
+  experience per content type, both human-readable and
+  machine-parseable.
 - **T-Q2.** Language polyglot: confirm proposal in §2 (C# core +
   GDScript glue + C++/Rust reserved + Python tooling) or pick a
   single-language stance (e.g., all-C# / all-GDScript).

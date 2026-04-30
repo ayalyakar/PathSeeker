@@ -102,45 +102,91 @@ of the long-arc plot threads — *not* an authorial deferral.
   Hollow** — exact location pending V-Q10-followup (inn / tavern /
   temple).
 
-### 4.3 Other Canonical Traits (resolved V-Q2, V-Q4–V-Q10)
+### 4.3 Other Canonical Traits (resolved V-Q2, V-Q4–V-Q10, V-Q12, V-Q13)
 
 | V-Q | Trait | Value |
 |---|---|---|
-| **V-Q2** | Class / archetype | **Flexible class with unique quirks**, exposed later through play |
+| **V-Q2** | Class / archetype | **Effectively unclassed** at start (hidden / custom-classed). Build emerges from play; class identity is exposed late and may take a non-RAW shape. See §4.3.1. |
 | **V-Q4** | Orientation | **Straight** |
 | **V-Q5** | Aging | **1:1 with the world** — Gherman starts 21, ages on the same calendar tick as everyone else |
-| **V-Q6** | Starting languages | **Common** (only) |
-| **V-Q7** | Distinctive marks | **Tattoo `08` on the inside of his right wrist** — origin unknown to him |
-| **V-Q8** | Voice profile | **No accent**; **low register**; **apathetic baseline** with hints of **sarcasm** and **cynicism**; **world-worn 21** |
-| **V-Q9** | Face | **Single canonical face**, designed by us; no face customization |
-| **V-Q10** | Starting location | **Falcon's Hollow** (Andoran, Darkmoon Vale) — found seemingly dead on the Foam River shore, brought into town. Specific room (inn / tavern / temple) pending V-Q10-followup |
+| **V-Q6** | Starting languages | **Common** (only). "Common is common" — accepted as a setting given; no specific origin-language acquired |
+| **V-Q7** | Distinctive marks | **Tattoo `08` on the inside of his right wrist** — meaning unknown to him *and to the design* (deferred to play-discovery per V-Q7-followup) |
+| **V-Q8** | Voice profile | **No accent**; **low register**; **apathetic baseline** with hints of **sarcasm** and **cynicism**; **world-worn 21**. Voice produced **synthetic-from-prompts** (no actor reference; per V-Q8-followup) |
+| **V-Q9** | Face | **Single canonical face**, designed by us; no face customization. **Designed after BL-0001 cel-shader spike** so face concept matches final renderer (per V-Q9-followup) |
+| **V-Q10** | Starting location | **Falcon's Hollow, Sarenrae's chapel** (Andoran, Darkmoon Vale). Found seemingly dead on the Foam River shore, brought to the chapel for vigil/recovery |
+| **V-Q12** | Anime archetypes | **No archetype, or surface-level only.** Companions and NPCs do not start as kuudere/tsundere/etc. templates. Anime-archetype flavor may **light-touch** a character's early read but is not a starting structure |
+| **V-Q13** | Outsider perceptibility | Looks like any other human, but wears a **modern outfit** at game start. Beyond the outfit, **everyone can tell something is off** with him — see §4.4 |
 
-### 4.4 Implications
+### 4.3.1 Class Shape (resolved V-Q2-followup)
+
+> **Effectively unclassed / custom-classed.** Mostly Option C (hidden
+> class assigned by the engine based on opening-arc choices) **plus
+> emergent shaping** (Option A) — Gherman is what he does, with the
+> engine quietly tracking and revealing class identity (or a custom-
+> shaped non-RAW path) over time.
+
+This means:
+- No class-pick screen.
+- No class label visible to the player at start.
+- Combat actions, magic experimentation, social style, and downtime
+  pursuits build hidden affinities.
+- At a later narrative beat, the affinities **crystallize** as a
+  PF2e RAW class **or** a custom-shaped path that diverges from RAW.
+- The unique quirks (V-Q2-quirks) are **mixed flavor and currently
+  unknown** to design — to be authored as the class arc emerges.
+
+### 4.4 Visible Anachronism and "Wrongness" (resolved V-Q13)
+
+- Gherman **looks like any other human** at a glance — body, face,
+  height, build all read as human-Golarion.
+- He wakes up wearing a **modern outfit** (clothing alien to
+  Golarion's medieval-fantasy aesthetic) — the most immediate
+  visible cue to NPCs that something is wrong.
+- The modern outfit will be **replaced** as Gherman acquires
+  Golarion-appropriate clothing. *Body and Identity* tracks any
+  pieces he keeps as persistent mementos.
+- Even after dressing down, **everyone can tell something is off
+  about him** — undefined "wrongness" that NPCs sense without being
+  able to name it. The mechanism is intentionally vague (smell,
+  aura, micro-mannerisms, divinatory residue, deity-detectable —
+  pending later design). It affects:
+  - First impressions (NPC reactions in *Dialogue*, *NPCs and
+    Companions*, *Crime and Justice*).
+  - Magical detection (divinations, *detect outsider*-like effects).
+  - Faction reactivity (religious, scholarly, paranoid factions).
+  - Romance / intimacy beats — partners sense it on physical contact.
+
+This is a **load-bearing scene-design lever**: the protagonist
+permanently carries an aura of foreignness, and a thousand small
+moments throughout the game come back to this fact.
+
+### 4.5 Implications
 
 - **Isekai framing** explains the canonically-unknown ancestry and
-  backstory in a way that respects in-fiction logic: he's an outsider
-  who didn't grow up in Golarion at all.
-- **Common-only languages** are weird for a man with no Golarion
-  origin — implying either (a) he had a magical translation effect
-  applied during transport, (b) he learned Common before transport
-  via an unknown means, or (c) the isekai mechanism conferred Common.
-  Pending V-Q6-followup.
-- **Tattoo `08`** is an obvious plot hook — institutional numbering
-  from his origin world? Cult marking? Identification number? We
-  control its meaning; design pending.
-- **Apathetic + sarcastic + world-worn 21** is a tonal anchor for
-  every line of VO and every scene-camera framing involving Gherman.
-  Drives V-Q8 follow-up: voice-actor reference (existing voice we
-  clone from? synthetic from scratch? composite?).
-- **Aging 1:1 with world** + persistent world (per *Core Loop and
-  Structure*) means decades-long playthroughs are coherent. Gherman
-  at 60 is a different person than Gherman at 21 — body, social,
-  combat, romantic, magical implications all cascade. See L-Q5/L-Q6,
-  N-Q4, BI-Q31.
-- **Falcon's Hollow opening** anchors the early game in **Andoran's
-  Darkmoon Vale**. This is canonical (and a published Pathfinder
-  starter region — *Hollow's Last Hope* etc.), giving us proven AP
-  material for the first arc. See LR-Q for any reworks needed.
+  backstory in a way that respects in-fiction logic.
+- **Source world and transport mechanism** are **deferred**
+  (V-Q3-followup, V-Q3-mechanism). The game can be played in full
+  without resolving them; if/when resolution happens, it is a
+  late-game beat.
+- **Common-only languages** explained by setting convention:
+  Common is common. No magical machinery required.
+- **Tattoo `08`** is a permanent mystery prop. Meaning is not
+  pre-authored; we'll define it when the relevant arc surfaces.
+- **Apathetic + sarcastic + world-worn 21** is the tonal anchor.
+  Voice is synthetic-from-prompts.
+- **Aging 1:1 with world** + persistent world means decades-long
+  playthroughs are coherent.
+- **Falcon's Hollow / Sarenrae's chapel opening** anchors the
+  early game in **Andoran's Darkmoon Vale** with a Sarenrae-
+  aligned cleric/healer as the first NPC. Intersects:
+  - *Religion and Devotion* (first divine NPC, regardless of
+    Gherman's eventual stance).
+  - *Lore* (Darkmoon Vale, Lumber Consortium, *Hollow's Last Hope*
+    AP material in scope per BL-0026).
+  - *Crime and Justice* (Lumber Consortium oppression as early
+    political lever).
+  - *Body and Identity* (the chapel discovers and documents
+    Gherman's body state on intake — tattoo, outfit, "wrongness").
 
 ## 5. Solo PC, Lifelike Party
 
@@ -159,19 +205,27 @@ of the long-arc plot threads — *not* an authorial deferral.
   long-horizon refactor tolerance** over flashy verticals.
 - Throwaway prototypes are fine for de-risking but should be marked as such.
 
-## 7. Project Intent: Anime Story Basis
+## 7. Project Intent: Anime Story Basis (Main Focus)
 
 > *"Game is designed to create a living world as basis for an anime
 > story of what happens, somewhat."*
+>
+> **Reaffirmed:** *"Main focus is to create an anime out of it.
+> With tons of inspirations."*
 
-A **soft directive**, qualified ("somewhat"), but load-bearing for
-production craft. The project produces a living, simulated Golarion;
-**emergent play is shaped to read like an anime narrative** when
-viewed as story.
+This is the **primary project intent**. It supersedes
+"forever project" framing where the two conflict: every long-horizon
+choice should serve the goal of producing a **living world whose
+emergent play reads as anime**.
 
-This is **not** a constraint on what stories happen — the simulation
-generates events organically. The directive shapes **how** those
-events look, sound, and feel:
+The project is therefore **two layered ambitions stacked**:
+
+1. A faithful, simulation-rich, NSFW-unlocked Pathfinder RPG (per
+   §1, §3, §4).
+2. **An anime-story generator** built on top of that simulation —
+   the simulation produces moments; those moments are the anime.
+
+The directive ripples through every craft decision:
 
 - **Tone and pacing.** Even the context-dependent tone palette
   (per §3) is **weighted toward anime conventions**: dramatic beats,
@@ -197,19 +251,51 @@ events look, sound, and feel:
   anime archetypes (kuudere, tsundere, deuteragonist, mentor, fated
   rival, etc.) as **starting templates**, deepened beyond stereotype
   through relational play.
-- **Story export potential** — eventually, screenshot / clip /
-  storyboard / scene-export tooling may be relevant so the player
-  (or developer) can clip story moments into anime-formatted
-  artifacts. **Deferred** — see V-Q11 below.
+- **Story export potential** — given the elevated focus, this is
+  promoted from "deferred" to **likely-needed**: screenshot / clip /
+  scene / storyboard export tooling is on the planning horizon so
+  emergent moments can be captured as anime-formatted artifacts.
+  Format and fidelity still pending V-Q11-restated below.
 - **Gherman's voice profile** (V-Q8) — apathetic / sarcastic /
   cynical / world-worn — fits a recognizable anime-protagonist
-  archetype (jaded male MC, drawn back into engagement by the world
-  and characters around him).
+  archetype (jaded male MC drawn back into engagement). Note that
+  V-Q12 explicitly **rejects** archetype-as-starting-template at
+  the writing level — anime archetype flavor is *surface*, never
+  scaffolding.
+- **"Tons of inspirations"** — the user has explicitly committed to
+  drawing on a large reference library of anime / manga / light
+  novels. This list is **pending V-Q14** below — each named
+  reference becomes a tonal-vocabulary entry the design can draw
+  from.
 
-Cross-references: this pillar ripples through *Art and Presentation*,
-*Animation Pipeline*, *Camera and Cinematography*, *Dialogue and
-Conversation*, *Audio*, *NPCs and Companions*. As we deepen each of
-those domains, anime-conventions guidance is folded in.
+### 7.1 Cross-References
+
+This pillar ripples through *Art and Presentation*, *Animation
+Pipeline*, *Camera and Cinematography*, *Dialogue and Conversation*,
+*Audio*, *NPCs and Companions*, and (because export tooling is now
+in scope) *Tech and Engine*. As we deepen each of those domains,
+anime-conventions guidance is folded in (per Backlog BL-0022).
+
+### 7.2 What the elevation changes
+
+Concretely, the promotion from "soft directive" to "main focus"
+changes:
+
+- **Camera and Cinematography** is no longer a support craft — it
+  becomes a primary domain (because *the camera is the anime*).
+  Cinematic density goes up (per CC-Q1 resolution: "lots of
+  cinematics"). See *Camera and Cinematography*.
+- **Animation** must hit anime-quality keyframes for emotional and
+  combat beats — not just functional motion. See *Animation
+  Pipeline*.
+- **Dialogue cadence** must read on the page like anime/manga
+  dialogue does — short beats, subtext, body-language gaps,
+  punchline timing.
+- **Music** prioritizes JRPG / anime score conventions.
+- **Performance Budget** allocates more frame budget to
+  cinematic-quality moments (per *Performance Budget*).
+- **Story-export tooling** moves toward "yes, design for it from
+  the start" — even if implementation is later (per V-Q11).
 
 ## 8. Cross-References
 
@@ -239,62 +325,58 @@ those domains, anime-conventions guidance is folded in.
 - ~~V-Q10.~~ **Partially resolved.** Falcon's Hollow / Foam River
   shore / wakes up in town. See §4.3 and V-Q10-followup.
 
-### New / Expanded
+### Resolved (this turn)
 
-- **V-Q2-followup.** "Flexible class with unique quirks (exposed
-  later)" — what does *flexible class* mean concretely? Options:
-  - (a) **Daggerfall-style emergent** — Gherman has no class; what
-    he does shapes what he becomes (combat-driven → fighter feats
-    unlock; magic-driven → caster path opens).
-  - (b) **PF2e-RAW class with player-pick at level 1** but
-    in-fiction "I don't yet know what I am."
-  - (c) **Hidden class** — the engine assigns a class behind the
-    scenes based on opening-arc choices; reveals over time.
-  - (d) **Multi-class via Free Archetype** (R-Q1 implication) —
-    Gherman gets several archetype slots over time, growing into
-    his identity.
-  - (e) **Custom mechanic** that's neither RAW class nor pure
-    emergent — describe.
-- **V-Q2-quirks.** "Unique quirks" — when revealed, what flavor?
-  Magical (innate ability from his origin world), supernatural
-  (tied to the tattoo), mundane-skill (anachronistic knowledge
-  from his other world), all of the above?
-- **V-Q3-followup.** Isekai source world — fully canonical-Golarion-
-  invented (a forgotten plane of the Great Beyond, a dead world,
-  a parallel Material Plane), or **Earth** (modern / historical /
-  futuristic), or *unspecified — discovered late game*?
-- **V-Q3-mechanism.** What transported him? Magical ritual,
-  cosmic accident, deity action, technological mishap, war
-  casualty, voluntary, summoned, betrayed, curse?
-- **V-Q6-followup.** How does Gherman speak Common at start with no
-  Golarion origin? (a) Translation magic at transport. (b) The
-  tattoo `08` confers it. (c) Earth-origin where some equivalent of
-  Common exists. (d) Pre-transport he was already a planar
-  traveler. (e) Other.
-- **V-Q7-followup.** Tattoo `08` meaning — pick now, defer to play?
-  Candidates: institutional numbering (orphanage, prison, military),
-  cult member, identification chip in tattoo form, divine mark,
-  test-subject number from a magical/scientific facility, custom.
-- **V-Q8-followup.** Voice acquisition — pick a reference voice
-  actor we'd like to clone-from-style (per T-Q9/T-Q10 dev-time TTS),
-  or define purely synthetic from voice-profile prompts? (Free use
-  per Q33.)
-- **V-Q9-followup.** Canonical face — when do we design it? Now
-  (concept art spike) or after the cel-shader spike (BL-0001)?
-- **V-Q10-followup.** Where exactly in Falcon's Hollow does Gherman
-  wake up? (a) The Sitting Duck inn. (b) An alternate inn / tavern.
-  (c) The Sarenrae chapel. (d) The home of a private healer. (e)
-  The town's communal house / local lord's hall. Each carries
-  different first-NPC implications.
-- **V-Q11.** **(New, from §7 anime-story-basis pillar.)** Does the
-  project commit to **scene/clip/storyboard export tooling** as a
-  deferred deliverable? If yes, what fidelity: still-frame
-  screenshots, video clips, panel layouts, full storyboard with
-  dialogue?
-- **V-Q12.** **(New.)** Anime-archetype starter templates for
-  companions and NPCs — adopt as a writing convention (with deeper
-  later development), or treat anime-archetype-flavor as a *light
-  garnish* rather than a starting structure?
-- **V-Q13.** **(New.)** Gherman's "isekai outsider" status —
-  perceptible by NPCs (smell wrong, look wrong, magical detection
-  flags), or invisible (he passes for human-Golarion at a glance)?
+- ~~V-Q2-followup.~~ **Resolved.** Effectively unclassed (Option C
+  hidden + Option A emergent shaping). See §4.3.1.
+- ~~V-Q2-quirks.~~ **Deferred.** "Mixed and unknown yet" — to be
+  authored as the class arc emerges.
+- ~~V-Q3-followup.~~ **Deferred.** "Unspecified" — source world is
+  not pre-authored; discovered (or not) in late-game beats.
+- ~~V-Q3-mechanism.~~ **Deferred.** "Unknown" — transport mechanism
+  not pre-authored.
+- ~~V-Q6-followup.~~ **Resolved.** "Common is common" — accept by
+  setting convention; no special mechanism needed.
+- ~~V-Q7-followup.~~ **Deferred.** Tattoo `08` meaning unknown to
+  design; authored when its arc surfaces.
+- ~~V-Q8-followup.~~ **Resolved.** Synthetic-from-prompts (no
+  actor reference). Pipeline pending T-Q9.
+- ~~V-Q9-followup.~~ **Resolved.** Canonical face designed **after**
+  BL-0001 cel-shader spike completes.
+- ~~V-Q10-followup.~~ **Resolved.** Sarenrae's chapel.
+- ~~V-Q12.~~ **Resolved.** No archetype, surface-level only. See
+  §4.3.
+- ~~V-Q13.~~ **Resolved.** Looks human; modern outfit anachronism;
+  pervasive "wrongness" everyone senses. See §4.4.
+
+### Re-posed / Open
+
+- **V-Q11 (re-posed).** Now that anime focus is **main project
+  focus** (§7), what scene-export tooling does the project commit
+  to? Restated options:
+  - **(a) None** — players use OBS / OS-level screenshot tools.
+  - **(b) Built-in screenshot mode** — pause-and-frame, anime-
+    composed shot, cel-shaded output.
+  - **(c) Built-in clip recorder** — record N seconds of locked-
+    camera scene; export as video.
+  - **(d) Storyboard export** — export a multi-frame "manga panel"
+    layout from a scene with dialogue overlay.
+  - **(e) Episode export** — full editor-level scene export for
+    splicing into a pre-produced anime episode.
+  - **(f) Multiple of the above**, deferred to specific milestones.
+- **V-Q14.** **(New.)** Anime / manga / light-novel reference
+  inspiration list — the user has committed to "tons of
+  inspirations." Please enumerate (or batch-dump) the references
+  you want anchored as tonal vocabulary. Each one becomes a citation
+  inside the relevant docs.
+- **V-Q15.** **(New, from §7 elevation.)** Cinematic density —
+  CC-Q1 was answered "lots of cinematics." Define the rough budget:
+  (a) one major cinematic per quest beat, (b) cinematic
+  micro-moments throughout play (BG3-frequent), (c) episode-style
+  set-piece cadence (one big sequence per ~hour of play), (d) all
+  of the above scaled to scene importance.
+- **V-Q16.** **(New.)** "Wrongness" mechanism (§4.4) — pre-author
+  what NPCs are actually picking up, or leave it loose? Candidates:
+  smell, dim aura, micro-mannerisms, divinatory residue, deity-
+  detectable, eye-shape, walk-pattern, deja-vu reaction in others,
+  pure narrative.

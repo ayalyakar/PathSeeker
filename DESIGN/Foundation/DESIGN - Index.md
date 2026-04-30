@@ -257,9 +257,13 @@ Total: **47 design docs** across 6 sub-folders.
 
 - ~~IDX-Q1.~~ **Resolved.** DESIGN/ split into 6 sub-folders per
   Option A (Foundation, Systems, World, People, Tech, Art).
-- **IDX-Q2.** Cross-reference link format — should the italic
-  `*Foo*` cross-reference convention be supplemented with actual
-  relative Markdown links (e.g., `[*Combat*](../Systems/DESIGN -
-  Combat.md)`) now that there's sub-folder navigation? Tradeoff:
-  real links work in IDE / GitHub preview but become brittle to
-  further reorgs.
+- ~~**IDX-Q2.**~~ **Resolved (assistant pick: "best option").**
+  **Hybrid: italic cross-references stay as the in-text style; new
+  cross-references additionally include a relative Markdown link
+  on first mention per file** — e.g., the *first* mention of
+  *Combat* in a doc reads `[*Combat*](../Systems/DESIGN - Combat.md)`,
+  subsequent mentions are plain italic. Best of both worlds:
+  navigability where it matters, cleanliness elsewhere, and
+  reorg-friendly because only first-mention links need updating
+  if files move. Backfilling existing docs is deferred to a
+  Backlog pass.

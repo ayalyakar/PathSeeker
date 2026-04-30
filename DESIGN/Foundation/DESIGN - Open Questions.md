@@ -12,27 +12,15 @@
 
 ### Vision (V-Q)
 
-- **V-Q2-followup** Concrete shape of "flexible class with unique
-  quirks" — Daggerfall-emergent / RAW-pick-with-flavor / hidden /
-  archetype-stack / custom?
-- **V-Q2-quirks** Flavor of the "unique quirks" — magical /
-  supernatural / mundane-anachronistic / mixed?
-- **V-Q3-followup** Isekai source world — Golarion-invented plane,
-  Earth, or unspecified-discovered-late?
-- **V-Q3-mechanism** What transported Gherman?
-- **V-Q6-followup** How does Gherman know Common with no Golarion
-  origin?
-- **V-Q7-followup** Meaning of tattoo `08` — pick now or defer?
-- **V-Q8-followup** Voice acquisition — clone reference vs synthetic.
-- **V-Q9-followup** Canonical face design timing.
-- **V-Q10-followup** Specific Falcon's Hollow waking location (inn /
-  tavern / temple / healer / hall).
-- **V-Q11** Scene/clip/storyboard export tooling — committed?
-  fidelity?
-- **V-Q12** Anime-archetype starter templates — convention or light
-  garnish?
-- **V-Q13** Is Gherman's isekai-outsider status perceptible to
-  Golarion NPCs?
+- **V-Q11 (re-posed)** What scene/clip/storyboard export tooling does
+  the project commit to (now that anime focus is **main**)? See
+  per-doc options.
+- **V-Q14 (new)** Anime / manga / light-novel reference inspiration
+  list — please enumerate ("tons of inspirations").
+- **V-Q15 (new)** Cinematic density budget shape (per CC-Q1 +
+  Vision §7.2).
+- **V-Q16 (new)** "Wrongness" mechanism — pre-author what NPCs
+  pick up, or leave it loose?
 
 ### Rules and Edition (R-Q)
 
@@ -252,7 +240,81 @@ files. Cross-doc highlights only listed above as needed.
 
 ## Resolved Questions Archive
 
-### Foundational decisions (this turn)
+### Foundational + cross-domain decisions (most recent turn)
+
+**Vision V-Q follow-ups & new Q's:**
+- **V-Q2-followup** → Effectively unclassed (Option C hidden +
+  Option A emergent). See *Vision* §4.3.1.
+- **V-Q2-quirks** → Deferred ("mixed and unknown yet").
+- **V-Q3-followup** → Deferred ("unspecified").
+- **V-Q3-mechanism** → Deferred ("unknown").
+- **V-Q6-followup** → "Common is common" — accepted by setting
+  convention.
+- **V-Q7-followup** → Deferred to play-discovery.
+- **V-Q8-followup** → Synthetic-from-prompts (no actor reference).
+- **V-Q9-followup** → After BL-0001 cel-shader spike.
+- **V-Q10-followup** → Sarenrae's chapel.
+- **V-Q12** → No archetype, surface-level only.
+- **V-Q13** → Looks human, modern outfit, pervasive "wrongness."
+  See *Vision* §4.4.
+- **§7 elevated** to "main project focus" (was "soft directive").
+
+**Workflow:**
+- **W-Q4 / W-Q5 / W-Q6** → Session-Start Ritual (3 questions
+  asked at every session start). See *Workflow* §11.
+
+**Tech / Foundation:**
+- **T-Q2** → Polyglot (C# core + GDScript glue + reserved C/Rust
+  + Python tooling).
+- **T-Q3** → Hybrid data layer (YAML/JSON source → SQLite runtime
+  → in-memory + graph projection).
+- **T-Q4** → Windows 11 baseline.
+- **T-Q15 / CP-Q1 / Q-Q1** → Hybrid source format
+  (Markdown+YAML-frontmatter for prose, pure YAML for stats).
+- **NC-Q1** → Code naming table confirmed.
+- **IDX-Q2** → Italics + first-mention relative MD links.
+- **PB-Q1** → Windows 11 baseline (hardware floor TBD).
+
+**Lore:**
+- **LR-Q1** → Initial register: LR-001 alignment, LR-002 magic,
+  **LR-003 gods (new)**, **LR-004 meta-lore (new)**.
+
+**Architecture:**
+- **WS-Q1** → Hybrid single-global + LOD-tiered.
+- **NPC-Q2** → 1,000+ named NPCs (hand-authored majors +
+  procedurally-stamped-then-frozen for the rest).
+- **SP-Q1** → Mixed: SQLite for bulk + JSON sidecar for slot
+  metadata.
+- **MD-Q1** → TOML for plugin manifests.
+
+**Systems:**
+- **DC-Q1** → Ink (by Inkle) for dialogue authoring.
+- **DC-Q2 / SK-Q1** → Numeric DC for major rolls; pass/fail
+  tier for minor rolls.
+- **IE-Q1 / CR-Q2** → Hybrid (diegetic + menu).
+- **EC-Q2** → Agent-based market simulation.
+- **SU-Q1** → Project-Zomboid harsh need pace.
+- **DR-Q3** → Per-substance tolerance/addiction.
+
+**People:**
+- **RR-Q1** → Hybrid affect-map (fixed core dimensions + free-form
+  per-NPC tags).
+
+**World:**
+- **FR-Q1** → ~500–1,000 factions, tiered depth.
+- **LW-Q1** → Compressed-for-travel but true-to-Golarion geography.
+- **TR-Q1** → Real-time walked + player-choice abstraction on
+  safe routes.
+- **CJ-Q1** → Witness model (line-of-sight + memory + report-rate)
+  confirmed.
+
+**Art:**
+- **CC-Q1** → Authored transitions + lots of cinematics.
+- **AN-Q1** → Universal humanoid base rig + per-ancestry overrides.
+- **AU-Q1** → Hybrid music engine.
+- **GL-Q1** → Flat alphabetical glossary.
+
+### Foundational decisions (previous turn — class arc)
 
 - **V-Q2** → **Resolved.** Flexible class with unique quirks
   (exposed later). See *Vision* §4.3.

@@ -57,8 +57,11 @@ Reputation has multiple axes per faction:
 
 ## 5. Open Questions (Factions and Reputation-Local)
 
-- **FR-Q1** Faction count target — major canonical (~30), expanded
-  (~100s), per-region exhaustive (~1000s)?
+- ~~**FR-Q1**~~ **Resolved.** Between expanded and per-region
+  exhaustive — target **~500–1,000** factions across Golarion,
+  with tiered depth (full §2 anatomy for major factions, lighter
+  shape for minor / regional / ephemeral). Authored progressively
+  via *Content Pipeline* extracts.
 - **FR-Q2** Per-faction depth — full anatomy (§2) for all, or tiered?
 - **FR-Q3** Standing model — numeric, discrete, both?
 - **FR-Q4** Notoriety vs standing — separate axes?

@@ -51,8 +51,11 @@ Layers:
 
 ## 5. Open Questions (Audio-Local)
 
-- **AU-Q1** Music engine — adaptive vertical-remix (FMOD/Wwise-style),
-  horizontal scene-driven, hybrid?
+- ~~**AU-Q1**~~ **Resolved.** **Hybrid** — adaptive vertical-remix
+  (intensity layering, instrumental swap by mood) **plus**
+  horizontal scene-driven (pieces transition between defined
+  states on scene-event triggers). Best fit for the Vision §7
+  anime-flexible tonal palette.
 - **AU-Q2** Music sourcing — fully composed (human / AI dev-time),
   procedural-generated, mix?
 - **AU-Q3** Per-region motif inventory — list and own?

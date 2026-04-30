@@ -67,8 +67,9 @@ Crafts cover:
 - **CR-Q1** PF2e Crafting RAW (Untouched) is daily-rolling — adapt
   to real-time how (continuous activity? scheduled multi-day with
   time-skip?)?
-- **CR-Q2** Crafting UI — diegetic workshop interaction vs menu vs
-  hybrid?
+- ~~**CR-Q2**~~ **Resolved.** **Hybrid** — primary interaction is
+  diegetic (workshop, tools, materials in 3D), with a menu overlay
+  for recipe selection and bulk operations.
 - **CR-Q3** Recipes — discoverable via play vs all-known-by-tier
   vs all-discoverable-via-research?
 - **CR-Q4** Player-authored recipes (per M-Q10) — extended to

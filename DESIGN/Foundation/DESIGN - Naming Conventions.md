@@ -54,7 +54,7 @@ of entities without collision.
 
 ## 6. Open Questions (Naming Conventions-Local)
 
-- **NC-Q1** Confirm code naming table in §3 (or specify).
+- ~~**NC-Q1**~~ **Resolved.** Code naming table in §3 confirmed.
 - **NC-Q2** Specific C# code style (StyleCop, EditorConfig, .editorconfig
   bundle)?
 - **NC-Q3** Confirm content ID convention in §4.

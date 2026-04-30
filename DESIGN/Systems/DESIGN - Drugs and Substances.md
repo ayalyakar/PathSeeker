@@ -47,7 +47,10 @@ Substances are **first-class** — not a side gimmick. They have:
   expanded set?
 - **DR-Q2** Effect model — fixed buff list, simulated dose-response
   curve, hybrid?
-- **DR-Q3** Tolerance / addiction model — per-substance, per-class?
+- ~~**DR-Q3**~~ **Resolved.** **Per-substance** — each substance
+  has its own tolerance / addiction / withdrawal profile. Generic
+  "drug class" rules are not used; pesh, alcohol, flayleaf,
+  shiver, etc. each get individual curves and recovery paths.
 - **DR-Q4** Withdrawal severity — mild penalty vs life-threatening?
 - **DR-Q5** Recovery options — willpower, magic, alchemical
   treatment, support NPCs?

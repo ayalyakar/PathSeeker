@@ -126,13 +126,13 @@ Companions are optional.
 
 ### Population
 
-- **NPC-Q2** Target named-NPC count. Options:
-  - **(a) ~100s** — RDR2-grade per region, manageable.
-  - **(b) ~1,000s** — full city populations named.
-  - **(c) ~10,000s** — every speaking part across Golarion is a
-    distinct named NPC.
-  - **(d) Procedurally generate NPCs as needed** with stable identity
-    once generated.
+- ~~**NPC-Q2**~~ **Resolved.** **More than 1,000 easily** —
+  effectively combining (b) full city populations named with (d)
+  procedural-but-stable for everyone else. Major cities get
+  hand-authored NPCs across all roles; smaller settlements use
+  procedurally-stamped-and-then-frozen NPCs that the player can
+  promote to named through interaction (per the §2 fidelity-tier
+  promotion model).
 
 ### Brain
 

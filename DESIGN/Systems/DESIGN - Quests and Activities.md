@@ -79,7 +79,11 @@ Procedural quests use **templates + world state**:
 
 ## 7. Open Questions (Quests-Local)
 
-- **Q-Q1** Quest authoring format (mirrors CP-Q1).
+- ~~**Q-Q1**~~ **Resolved (mirrors CP-Q1).** Hybrid:
+  Markdown-with-YAML-frontmatter for prose-heavy quest content
+  (descriptions, dialogue, scene beats); pure YAML for
+  stat/structure-heavy data (objectives, triggers, rewards,
+  encounters).
 - **Q-Q2** Quest journal UX — diegetic (in-game journal book) vs
   modern menu vs hybrid.
 - **Q-Q3** Quest discovery — does the player see "active quests" or

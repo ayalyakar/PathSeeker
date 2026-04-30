@@ -59,9 +59,13 @@ graph (per NPC-Q12).
 
 ## 5. Open Questions (Romance and Relationships-Local)
 
-- **RR-Q1** Affect-map dimensions — propose a fixed schema (e.g.,
-  Trust, Lust, Respect, Familiarity, Fear, Resentment, Devotion)
-  vs free-form per NPC?
+- ~~**RR-Q1**~~ **Resolved.** **Hybrid** — every NPC has the same
+  fixed schema of core dimensions (Trust, Lust, Respect,
+  Familiarity, Fear, Resentment, Devotion as the working set,
+  finalize when *Romance* deepens), **plus** free-form per-NPC
+  tags for unique relational notes (idiosyncratic feelings,
+  triggers, kinks, taboos, jealousies). Best of both: comparable
+  baseline across the simulation, expressive room for character.
 - **RR-Q2** Romance gates — what events advance / regress / break a
   romance? (Time spent, gifts, shared danger, sexual contact,
   betrayal, gifts given to others, public flirtation, secrets

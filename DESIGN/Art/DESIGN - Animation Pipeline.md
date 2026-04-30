@@ -51,7 +51,13 @@ Cel-shaded anime fidelity at AAA scale (per *Art* §1.1) demands a
 
 ## 5. Open Questions (Animation-Local)
 
-- **AN-Q1** Base rig — humanoid universal vs per-ancestry?
+- ~~**AN-Q1**~~ **Resolved.** **Humanoid universal base rig + per-
+  ancestry overrides.** All bipedal humanoid ancestries share a
+  universal skeletal baseline so animation can retarget between
+  them; ancestries with significant anatomical divergence
+  (lizardfolk tails, kobold proportions, leshy plant-bodies, etc.)
+  get per-ancestry skeleton overrides layered on top. Quadruped /
+  exotic creatures are out-of-band rigs.
 - **AN-Q2** Facial system — blendshape, bone, hybrid (mirrors A-Q4)?
 - **AN-Q3** Lip-sync (mirrors A-Q12).
 - **AN-Q4** Hair (mirrors A-Q5) — card hair, strand hair, hybrid?

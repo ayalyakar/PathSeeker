@@ -36,8 +36,13 @@
 
 ## 4. Open Questions (Camera and Cinematography-Local)
 
-- **CC-Q1** FP↔framed transition — handful of authored transitions
-  vs procedural blend?
+- ~~**CC-Q1**~~ **Resolved.** **Authored transitions** between FP
+  and framed-camera scenes, supplemented by **lots of cinematics**
+  — per *Vision* §7.2 anime-focus elevation, cinematic density
+  goes up. Each significant scene (dialogue, intimate, ritual,
+  combat boss reveal, AP beats) gets authored framing and
+  transition. Procedural blend is reserved for low-stakes
+  ambient transitions only.
 - **CC-Q2** Headbob, motion blur, FOV — defaults and toggles?
 - **CC-Q3** Lock-on combat camera (C-Q2 mirrors).
 - **CC-Q4** Scene framing language — directorial style guide

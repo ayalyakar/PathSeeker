@@ -45,8 +45,11 @@ not numbers.
 
 ## 6. Open Questions (Inventory and Equipment-Local)
 
-- **IE-Q1** Inventory UI — diegetic (open the bag) vs grid menu vs
-  hybrid?
+- ~~**IE-Q1**~~ **Resolved.** **Hybrid** — primary interaction is
+  diegetic (open the bag, see contents in 3D space), with a
+  modern grid-menu overlay accessible for ergonomic rapid
+  inspection (per *Art and Presentation* §4 modern-with-diegetic
+  layering principle).
 - **IE-Q2** Bulk surfacing — explicit number, color-coded, animation-
   only?
 - **IE-Q3** Bag tetris (Resident Evil) vs simple list?

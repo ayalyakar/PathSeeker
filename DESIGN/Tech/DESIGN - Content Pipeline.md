@@ -129,18 +129,12 @@ PathSeeker/
 
 ### Format and tooling
 
-- **CP-Q1** Source format for content extracts. Options:
-  - **(a) YAML** — human-friendly, widely supported, finicky on
-    indentation.
-  - **(b) JSON** — strict, machine-friendly, awkward to hand-edit.
-  - **(c) JSON5 / JSONC** — JSON + comments + trailing commas.
-  - **(d) TOML** — clean for shallow configs, awkward for deep nesting.
-  - **(e) Markdown with YAML frontmatter** — narrative + structured;
-    great for content with lots of prose.
-  - **(f) Hybrid: Markdown+frontmatter for prose-heavy content
-    (lore, scenes, dialogue), YAML for stat-heavy content (spells,
-    feats, items).**
-  - **(g) Custom DSL** (highest authoring quality, most engineering).
+- ~~**CP-Q1**~~ **Resolved (mirrors T-Q15).** Option (f) hybrid:
+  **Markdown-with-YAML-frontmatter for prose-heavy content (lore,
+  scenes, dialogue, descriptions); pure YAML for stat-heavy content
+  (spells, feats, items, monsters, classes, ancestries,
+  encounters).** Single canonical schema reachable from either. See
+  *Tech and Engine* T-Q15 resolution for rationale.
 - **CP-Q2** Validation gate model. Options:
   - **(a) JSON Schema** — well-known, tool support.
   - **(b) CUE** — typed, composable, expressive.

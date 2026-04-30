@@ -57,6 +57,64 @@ Everything else stays close to Paizo canon by default.
   Acadamae) get re-flavored.
 - **Open**: M-Q1, M-Q3–M-Q12; see *Magic*.
 
+### LR-003 — Gods (per *Religion and Devotion*)
+
+- **Source canon**: Golarion deities are described in alignment-coded,
+  metaphysically-mystical terms; their power source is generally
+  treated as numinous and beyond mortal understanding.
+- **Our state**: Deities are **empirically-detectable entities**
+  with measurable power signatures. Worship is a **relationship**
+  (often transactional, sometimes loving, sometimes contractual,
+  sometimes coerced) rather than a metaphysical given. Edicts and
+  anathema (per Remaster) are the operative axes — not alignment.
+  Divine magic is not different in *kind* from arcane/primal/occult
+  under the rational rework, but its **source** is a deity contract.
+- **Affects**: every deity blurb, divine spellcasting flavor,
+  Boneyard/judgment mechanics, planar coherence (per LR-Q5–LR-Q8),
+  religious factions, sacred-rite design (sex, pain, secrets,
+  death), Calistria/Shelyn/Lamashtu/Pharasma/Urgathoa/Norgorber/
+  Zon-Kuthon/Cayden-Cailean portfolios all reframed for mature
+  treatment.
+- **Implication for Gherman**: his first NPC encounter is at
+  **Sarenrae's chapel** (per *Vision* §4.3). Sarenrae is therefore
+  the first deity-as-entity Gherman meets the influence of —
+  cleric/healer NPC voice, healing-as-divine-mechanism on display,
+  potential opening religious lever (regardless of where Gherman
+  ultimately stands).
+- **Open**: see *Religion and Devotion* RD-Q* (full slate).
+
+### LR-004 — Meta Lore (cosmology, history, planes, the Great Beyond)
+
+- **Source canon**: Golarion's macro-history, cosmology, planar
+  structure, the Inner/Outer Sphere, the Great Beyond, Earthfall,
+  the Age of Lost Omens, the Worldwound, Aroden's death,
+  Iomedae's ascension, etc.
+- **Our state**: Nominally canonical at the macro-history layer, but
+  **the cosmology and planar structure are reworked to be coherent
+  without alignment** (per LR-001). Specifics are dependent on
+  LR-Q5–LR-Q8 resolutions, but the design intent is:
+  - **Planes** regrouped by trait/theme (per LR-Q5) rather than
+    alignment quadrant.
+  - **The Boneyard / Pharasma** still sorts souls — but by what
+    measurable axis (LR-Q6).
+  - **Outsiders** (devils, demons, angels, archons, agathions,
+    azata, daemons, kytons, psychopomps) re-traited rather than
+    re-aligned.
+  - **Divine source** under "rational magic" is empirical
+    (deities are observable contractable entities — see LR-003).
+  - **Faith vs reason** as a meaningful in-fiction axis: Rahadoumi
+    Laws of Mortality (atheism) becomes a more coherent stance in
+    a Golarion where deities are observable rather than metaphysical
+    givens.
+  - **Gherman's isekai origin** (per *Vision* §4.2) implicates the
+    cosmology — at some point we must decide whether the source
+    world is a Golarion plane, a separate plane, or fully outside
+    the Great Beyond entirely (V-Q3-followup).
+- **Affects**: every plane page, every deity page, the Boneyard /
+  judgment design, outsider taxonomies, Aroden / Worldwound /
+  Mendev arcs, isekai cosmology.
+- **Open**: LR-Q5–LR-Q8 plus the new LR-Q below.
+
 ## 3. Reworks To Decide (proposed scope)
 
 These are areas where the project's vision creates pressure on the
@@ -150,9 +208,11 @@ decide which to engage.
 
 ### Stance and triage
 
-- **LR-Q1** Initial confirmed-rework register — confirm LR-001 and
-  LR-002 above; flag any items in §3 that should be promoted to
-  "confirmed rework" (vs left as "canonical-with-tweaks") this turn.
+- ~~**LR-Q1**~~ **Resolved.** Initial confirmed-rework register
+  finalized: **LR-001 alignment removal**, **LR-002 magic as
+  alchemical/rational**, **LR-003 gods as empirical contractable
+  entities**, **LR-004 meta-lore (cosmology / planes / history)
+  reworked under no-alignment**. See §2.
 - **LR-Q2** Default rework policy when canon and our needs collide:
   rework, hand-wave, or hand-author missing detail?
 - **LR-Q3** Per-rework documentation depth — register-only,

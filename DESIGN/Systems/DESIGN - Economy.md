@@ -46,8 +46,13 @@ exchange rates may be modeled (per EC-Q below).
 
 - **EC-Q1** Currency model — single gold-piece scale, multi-currency
   (regional), or both with exchange?
-- **EC-Q2** Market simulation depth — fixed-with-shocks, supply/demand,
-  full agent-based?
+- ~~**EC-Q2**~~ **Resolved (assistant pick: "most realistic option").**
+  **Full agent-based simulation** — individual NPC merchants,
+  producers, consumers, and trade routes operate as agents inside
+  the *World Simulation* tick (per WS-Q14 / WS-Q12 implications).
+  Markets emerge from agent behavior; shocks (war, plague, bandits)
+  propagate through the agent network. Heaviest of the three
+  options; fits the "lifelike Golarion" vision.
 - **EC-Q3** Wage system — per-job, per-day, performance-based?
 - **EC-Q4** Property rental vs ownership.
 - **EC-Q5** Inheritance — Gherman dies, where does wealth go (mostly

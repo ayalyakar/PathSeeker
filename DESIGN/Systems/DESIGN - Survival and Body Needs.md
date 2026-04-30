@@ -42,8 +42,11 @@ constant chore.
 
 ## 5. Open Questions (Survival and Body Needs-Local)
 
-- **SU-Q1** Need pace — Project-Zomboid harsh vs RDR2 light vs
-  custom?
+- ~~**SU-Q1**~~ **Resolved.** **Project-Zomboid harsh** —
+  unforgiving need pace; ignored needs cause real degradation;
+  survival management is a real layer of play, not a chore-token.
+  Magical bypass (*create food and water* etc.) remains available
+  but expensive — see SU-Q11.
 - **SU-Q2** Surfacing — explicit bars, audio cues, NPC complaints,
   body animation only?
 - **SU-Q3** Nutrition variety — different foods give different

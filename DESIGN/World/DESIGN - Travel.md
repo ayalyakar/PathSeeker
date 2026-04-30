@@ -47,9 +47,13 @@ While traveling, the simulation rolls for:
 
 ## 6. Open Questions (Travel-Local)
 
-- **TR-Q1** Real-time-walking-the-whole-distance vs accelerated-but-
-  simulated (e.g., 1 day in-world per X seconds while traveling
-  abstracted) vs choice?
+- ~~**TR-Q1**~~ **Resolved.** **Real-time walked most of the time +
+  player-choice abstraction.** Default mode is real-time
+  walking/riding through compressed-but-true-to-Golarion geography
+  (per LW-Q1). The player can **opt** into accelerated-but-simulated
+  travel (1 day in-world per X real-time seconds while abstracted)
+  on safe / familiar routes. Encounters, weather, and companion
+  interactions can interrupt and drop back into real-time.
 - **TR-Q2** Fast-travel rules — known-safe routes only, fast-travel-
   with-time-skip, free everywhere?
 - **TR-Q3** Random encounter density — tunable per region?

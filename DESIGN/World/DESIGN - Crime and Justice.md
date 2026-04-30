@@ -55,7 +55,11 @@ vs Galt vs tribal), faction-modified, witness-based.
 
 ## 6. Open Questions (Crime and Justice-Local)
 
-- **CJ-Q1** Witness model — line-of-sight + memory + report-rate?
+- ~~**CJ-Q1**~~ **Resolved.** **Line-of-sight + memory + report-rate**
+  confirmed. NPCs witness via vision/sound (per *Skill Checks* SK-Q4
+  sensory layers); witnessed events enter NPC memory (per *NPCs and
+  Companions* NPC-Q1); reports propagate through faction networks at
+  a per-region rate (per *World Simulation* WS-Q15 rumor model).
 - **CJ-Q2** Witness intimidation — kill the witness, bribe, blackmail?
 - **CJ-Q3** Region-specific law tables — full enumeration per region
   (likely huge; per-region content)?
