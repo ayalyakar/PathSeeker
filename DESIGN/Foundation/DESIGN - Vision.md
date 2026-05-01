@@ -271,14 +271,6 @@ The directive ripples through every craft decision:
   reference becomes a tonal-vocabulary entry the design can draw
   from.
 
-### 7.1 Cross-References
-
-This pillar ripples through *Art and Presentation*, *Animation
-Pipeline*, *Camera and Cinematography*, *Dialogue and Conversation*,
-*Audio*, *NPCs and Companions*, and (because export tooling is now
-in scope) *Tech and Engine*. As we deepen each of those domains,
-anime-conventions guidance is folded in (per Backlog BL-0022).
-
 ### 7.2 What the elevation changes
 
 Concretely, the promotion from "soft directive" to "main focus"
@@ -297,8 +289,59 @@ changes:
 - **Music** prioritizes JRPG / anime score conventions.
 - **Performance Budget** allocates more frame budget to
   cinematic-quality moments (per *Performance Budget*).
-- **Story-export tooling** moves toward "yes, design for it from
-  the start" — even if implementation is later (per V-Q11).
+- **Story-export tooling** is committed and built **all parallel**
+  (resolved V-Q11-followup): screenshot mode, clip recorder,
+  storyboard/panel export, and full episode export are all in
+  scope concurrently, none deferred behind the others.
+
+### 7.3 Tonal Vocabulary — Anime Inspirations (resolved V-Q14)
+
+The following is the **anchor reference list** for the project's
+anime tonal vocabulary. Each entry is a citation any design doc can
+draw from when justifying or describing a tonal/visual/narrative
+choice. List is **non-closed** — the user has signalled "and
+probably more" for future additions (BL-0027 stays open as
+an inspirations-list backlog).
+
+| Inspiration | What it contributes to PathSeeker |
+|---|---|
+| **Hell's Paradise (Jigokuraku)** | Visceral horror-with-beauty aesthetic; survival in an exotic doomed environment; criminals seeking redemption framing; lush body-horror combat |
+| **Fate/Zero**, **Fate/Stay Night**, **Heaven's Feel** | Layered moralities in a high-stakes magical war; summoned legends meeting modern flesh; tragic romance under doom; Heaven's Feel specifically — explicit darkness, body horror, sacrificial sexuality, "the route where everything breaks" |
+| **Bleach** | Stylish combat-as-identity; expansive cosmology of soul / hierarchy / opposition (Soul Society / Hollow / Espada); climactic showdown structure; cool-as-craft aesthetic; ban-kai-style "true form revealed" beats |
+| **Redo of Healer (Kaifuku Jutsushi Yarinaoshi)** | Openly transgressive sexual content; vengeance arc as central drama; transformation and captivity as gameplay-narrative loop; healing-as-control-reversal; permission to render the dark thoroughly |
+| **Demon Slayer (Kimetsu no Yaiba)** | Combat-as-art (breathing-style visuals, motion as living calligraphy); generational trauma and family bonds; suffering-rendered-beautiful; period-piece weight applied to fantasy |
+| **My Dress-Up Darling (Sono Bisque Doll)** | Slice-of-life romance counterbalance; hobby-as-bonding; gentle sensuality and body acceptance; soft pacing between dark arcs; craft-as-intimacy |
+| **Berserk** | Dark fantasy gravity at the upper limit; epic suffering and defiant agency; betrayal as cosmic horror; demonic warfare; permission to render rape, gore, and divine evil unflinchingly |
+| **Goblin Slayer** | Monomaniacal purpose carried by an "ordinary" adventurer; party dynamics in low-fantasy adventure; brutal-realism in a heroic setting; tabletop-RPG flavored party play |
+
+**How this list is used:**
+
+- When a design choice is contested, point at the inspiration(s) it
+  serves (e.g., "this combat camera draws from *Demon Slayer*'s
+  breathing-style coverage; this tone draws from *Berserk*").
+- Cross-doc citations: any doc may cite an inspiration with the
+  shorthand `[insp: <Title>]` to anchor a design choice.
+- The **NSFW + dark-themes commitment** (per *NSFW* §1) is
+  doubly-anchored by *Redo of Healer* + *Berserk* — the
+  inspirations explicitly cover the explicit + transgressive +
+  brutal range the project commits to render.
+- The **slice-of-life balance** (per *Vision* §3 tonal flexibility)
+  is anchored by *My Dress-Up Darling* — it reminds us that the
+  project is not all darkness; gentle scenes are first-class.
+- The **cool-stylized combat** (per *Combat*, *Animation Pipeline*)
+  is anchored by *Bleach* + *Demon Slayer*.
+- The **summoning / cosmology** flavor (per *Magic*, *Religion and
+  Devotion*, *Death and Afterlife*) draws from *Fate* + *Bleach*.
+
+### 7.4 Cross-References (anime layer)
+
+This pillar ripples through *Art and Presentation*, *Animation
+Pipeline*, *Camera and Cinematography*, *Dialogue and Conversation*,
+*Audio*, *NPCs and Companions*, *Tech and Engine* (export tooling),
+*Combat* (combat-as-art), *NSFW* (transgressive anime grounding),
+and *Magic* / *Religion and Devotion* / *Death and Afterlife*
+(cosmology). As we deepen each of those domains, anime-conventions
+guidance is folded in (per Backlog BL-0022).
 
 ## 8. Cross-References
 
@@ -354,42 +397,27 @@ changes:
 
 ### Re-posed / Open
 
-- ~~V-Q11.~~ **Resolved (this turn).** **Yes** — scene-export
-  tooling is committed. Interpreted as **Option (f): multiple of
-  the below, deferred to specific milestones**, given the elevated
-  anime focus. The full menu (screenshot mode, clip recorder,
-  storyboard export, episode export) is in scope; sequencing TBD
-  per V-Q11-followup.
-- **V-Q11-followup.** **(New.)** Sequencing and per-tool fidelity
-  of the export menu:
-  - **(a) Screenshot mode** — pause-and-frame, anime-composed
-    shot, cel-shaded output.
-  - **(b) Clip recorder** — record N seconds of locked-camera
-    scene; export as video.
-  - **(c) Storyboard / panel export** — multi-frame "manga panel"
-    layout from a scene with dialogue overlay.
-  - **(d) Episode export** — editor-level scene export for
-    splicing into a pre-produced anime episode.
-  - Pick a priority order for these (e.g., a → b → c → d), or
-    request all parallel.
-- **V-Q14.** **(New.)** Anime / manga / light-novel reference
-  inspiration list — the user has committed to "tons of
-  inspirations." Please enumerate (or batch-dump) the references
-  you want anchored as tonal vocabulary. Each one becomes a citation
-  inside the relevant docs.
-- **V-Q15.** **(New, from §7 elevation.)** Cinematic density —
-  CC-Q1 was answered "lots of cinematics." Define the rough budget:
-  (a) one major cinematic per quest beat, (b) cinematic
-  micro-moments throughout play (BG3-frequent), (c) episode-style
-  set-piece cadence (one big sequence per ~hour of play), (d) all
-  of the above scaled to scene importance.
-- **V-Q16.** **(New.)** "Wrongness" mechanism (§4.4) — pre-author
-  what NPCs are actually picking up, or leave it loose? Candidates:
-  smell, dim aura, micro-mannerisms, divinatory residue, deity-
+- ~~V-Q11.~~ **Resolved.** **Yes** — full export-menu committed.
+- ~~V-Q11-followup.~~ **Resolved.** **All parallel** — screenshot
+  mode, clip recorder, storyboard/panel export, episode export
+  built concurrently (no sequencing, no deferral). See §7.2.
+- ~~V-Q14.~~ **Resolved (initial batch).** Inspiration list:
+  Hell's Paradise, Fate Zero/Stay Night/Heaven's Feel, Bleach,
+  Redo of Healer, Demon Slayer, My Dress-Up Darling, Berserk,
+  Goblin Slayer. List is open-ended; further additions accepted
+  at any time. See §7.3.
+- ~~V-Q17.~~ **Resolved.** Gherman is **openly atheist** —
+  Rahadoumi-style (refuses divine worship even though gods are
+  empirically real in Golarion). Implications captured in
+  *Religion and Devotion* §3.1.
+- **V-Q15.** Cinematic density — CC-Q1 was answered "lots of
+  cinematics." Define the rough budget: (a) one major cinematic
+  per quest beat, (b) cinematic micro-moments throughout play
+  (BG3-frequent), (c) episode-style set-piece cadence (one big
+  sequence per ~hour of play), (d) all of the above scaled to
+  scene importance.
+- **V-Q16.** "Wrongness" mechanism (§4.4) — pre-author what NPCs
+  are actually picking up, or leave it loose? Candidates: smell,
+  dim aura, micro-mannerisms, divinatory residue, deity-
   detectable, eye-shape, walk-pattern, deja-vu reaction in others,
   pure narrative.
-- **V-Q17.** **(New, from RD-Q1 resolution this turn.)** Gherman
-  starts with **no patron deity** (resolved). His relationship to
-  the divine in this Golarion: openly atheist, agnostic-by-default,
-  pre-faith (open to development through play), or actively
-  hostile to the divine (Rahadoumi-style)?

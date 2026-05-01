@@ -43,6 +43,60 @@ A devotee carries:
 - Access to **divine magic** (clerics, champions, divine sorcerers,
   oracles, animists) gated by observance and standing.
 
+### 3.1 Gherman's Stance — Openly Atheist (resolved V-Q17)
+
+Gherman starts the game as a **declared atheist** in the Rahadoumi
+mold — not "I haven't thought about it" but "**I refuse**." This is
+mechanically and narratively significant in a Golarion where
+deities are **empirically real and verifiable** (per LR-002 magic
+rationalist rework + LR-Q5–LR-Q8 cosmology). Atheism is a stance,
+not an ignorance.
+
+**Mechanical implications:**
+
+- **No patron**, no observance score, no standing.
+- **Cannot access divine magic himself** — closed to Cleric,
+  Champion, divine Sorcerer, Oracle, Animist class paths via the
+  divine vector. (Other paths to similar mechanical outcomes —
+  Magus/divine, Witch with non-divine patron, etc. — remain open.)
+- **Cannot benefit from prayer-based divine healing as a willing
+  recipient** at full strength — a Sarenrae cleric *can* heal
+  Gherman, but the spell may take the rules-as-written
+  *Will save vs. heal as the unwilling target* edge cases when
+  the cleric attempts it without consent. Specific mechanic
+  pending RD-Q-followup.
+- **Religious factions react** with disapproval, suspicion, or
+  hostility per their portfolio — Iomedaeans cool, Asmodean
+  contracts unenforceable on him in some legal regions, Pharasma
+  followers wary about his unrooted soul, Rahadoumi Pure Legion
+  receptive.
+- **Divine detection effects** flag him distinctly — to
+  divinatory NPCs, an empirically-real god gets nothing back when
+  they attempt to read Gherman's spiritual orientation; he reads
+  as a *void* in their senses, separate from the §4.4 "wrongness"
+  but possibly compounding it.
+
+**Narrative implications:**
+
+- **Ironic opening:** Gherman wakes up in **Sarenrae's chapel**
+  (per V-Q10), tended by faithful who saved his life via the
+  goddess they serve. The first scene is therefore loaded with
+  immediate tension — the player choice to express, conceal, or
+  weaponize his atheism is the first signature decision.
+- **Long-arc development:** Gherman's atheism can deepen
+  (becoming actively iconoclastic, Rahadoumi-enlisted, deity-
+  hunting), erode (slow conversion under pressure of evidence and
+  intimacy), or be weaponized (faking faith for advantage). All
+  paths are play-emergent.
+- **Romance constraint:** romances with deeply religious NPCs
+  carry baseline friction; conversely, a Rahadoumi or fellow
+  iconoclast romance has natural resonance.
+- **NSFW/Religion intersection:** sacred-sex contexts (Calistria,
+  Shelyn, Lamashtu) become especially fraught — Gherman as a
+  declared atheist participating in sacred rites carries
+  **transgressive** weight (a key tonal-vocabulary alignment with
+  inspirations *Berserk*, *Heaven's Feel*, *Redo of Healer*).
+
 ## 4. Cross-References
 
 - *Magic* — divine spells under rational rework.

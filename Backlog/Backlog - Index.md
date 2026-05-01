@@ -122,11 +122,10 @@ files in a subsequent autonomous Backlog edit.
   export tooling. Resolved: **Yes**, multiple exporters in scope
   (screenshot, clip, panel, episode), sequencing pending
   V-Q11-followup. Spawns BL-0023a.
-- **BL-0023a** - [ ] **Decide: V-Q11-followup** — sequencing /
-  per-tool fidelity for the export menu (screenshot mode → clip
-  recorder → storyboard export → episode export). Pick a priority
-  order or request all parallel. → *Vision* §9 V-Q11-followup,
-  *Tech and Engine*.
+- **BL-0023a** - [x] **Decide: V-Q11-followup** — resolved:
+  **all four exporters built in parallel** (screenshot, clip,
+  panel/storyboard, episode). No sequencing. Spawns BL-0049–0052
+  for individual exporter design + build.
 - **BL-0024** - [x] **Decide: V-Q12** — no archetype, surface-level
   only.
 - **BL-0025** - [x] **Decide: V-Q13** — looks human, modern outfit,
@@ -140,10 +139,11 @@ files in a subsequent autonomous Backlog edit.
 
 ## Tasks added this turn (Apr-Sep)
 
-- **BL-0027** - [ ] **Anime / manga / light-novel inspirations
-  list (V-Q14).** User to enumerate "tons of inspirations." Each
-  reference becomes a tonal-vocabulary entry citable from relevant
-  docs. → *Vision* §7.
+- **BL-0027** - [x] **Anime / manga / light-novel inspirations
+  list (V-Q14).** Initial batch resolved: Hell's Paradise,
+  Fate Zero/Stay Night/Heaven's Feel, Bleach, Redo of Healer,
+  Demon Slayer, My Dress-Up Darling, Berserk, Goblin Slayer.
+  Open-ended for further additions. → *Vision* §7.3.
 - **BL-0028** - [ ] **Decide: V-Q15** — cinematic density budget
   (one-per-quest-beat / BG3-frequent / episode-set-piece / scaled).
 - **BL-0029** - [ ] **Decide: V-Q16** — "wrongness" mechanism
@@ -178,9 +178,9 @@ files in a subsequent autonomous Backlog edit.
 - **BL-0040** - [x] **Re-pose: BI-Q1 and RD-Q1** — re-explained
   next turn; both resolved: BI-Q1 = composed subsystems, RD-Q1 =
   mixed patrons / Gherman has none.
-- **BL-0041** - [ ] **Decide: V-Q17** — Gherman's stance toward
-  the divine (atheist / agnostic / pre-faith / hostile). → *Vision*
-  §9.
+- **BL-0041** - [x] **Decide: V-Q17** — Gherman is openly atheist
+  (Rahadoumi-style). Implications captured in *Religion and
+  Devotion* §3.1.
 - **BL-0042** - [ ] **Decide: CP-Q3 implementation** — define the
   YAML decisions-block schema (timestamp, question-ID, answer,
   rationale fields). → *Content Pipeline* §2.2.
@@ -194,6 +194,47 @@ files in a subsequent autonomous Backlog edit.
 - **BL-0047** - [x] **Decide: BI-Q1** — composed subsystems.
 - **BL-0048** - [x] **Decide: RD-Q1** — mixed patron model;
   Gherman has none.
+- **BL-0049** - [ ] **Build: in-game screenshot mode** (anime-
+  composed pause-and-frame; cel-shaded output). One of four
+  parallel exporters per V-Q11-followup. → *Camera and
+  Cinematography*, *Tech and Engine*.
+- **BL-0050** - [ ] **Build: in-game clip recorder** (record N
+  seconds of locked-camera scene; export as video). One of four
+  parallel exporters. → *Camera and Cinematography*, *Tech and
+  Engine*.
+- **BL-0051** - [ ] **Build: storyboard / panel exporter**
+  (multi-frame manga-panel layout from a scene with dialogue
+  overlay). One of four parallel exporters. → *Camera and
+  Cinematography*, *Dialogue and Conversation*.
+- **BL-0052** - [ ] **Build: episode exporter** (editor-level
+  scene export for splicing into a pre-produced anime episode).
+  One of four parallel exporters. Largest-scope; likely depends
+  on the other three landing first in some form. → *Camera and
+  Cinematography*, *Animation Pipeline*, *Audio*, *Tech and
+  Engine*.
+- **BL-0053** - [ ] **Decide: RD-Q-followup** (atheist healing
+  edge case) — when a Sarenrae cleric attempts to heal an
+  unwilling-by-philosophy atheist (Gherman), what happens
+  mechanically? RAW *unwilling target* Will save vs partial
+  heal? Custom rule? Diegetic friction with no mechanic? →
+  *Religion and Devotion* §3.1, *Magic*, *Combat*.
+- **BL-0054** - [ ] **Lore: Rahadoum** reference research and
+  rework register entry. Pure Legion, Laws of Mortality,
+  atheist-society practices. Newly load-bearing per Gherman's
+  V-Q17 atheist stance (potential late-game faction destination).
+  → *Lore Reworks*.
+- **BL-0055** - [ ] **Build: anime-inspirations citation
+  convention** — implement the `[insp: <Title>]` shorthand and
+  apply it backwards across existing docs where a tonal claim
+  could be grounded in one of the V-Q14 inspirations. → *Vision*
+  §7.3.
+- **BL-0056** - [ ] **Per-domain anime-inspirations pass**
+  (extension of BL-0022): for each of *Combat*, *Magic*,
+  *Animation Pipeline*, *Camera and Cinematography*, *Dialogue
+  and Conversation*, *Audio*, *NPCs and Companions*, *NSFW*,
+  *Religion and Devotion*, *Death and Afterlife* — add a
+  "Tonal Anchors" subsection citing the relevant V-Q14
+  inspirations.
 
 ## Cross-References
 

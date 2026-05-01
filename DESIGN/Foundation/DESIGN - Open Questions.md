@@ -242,6 +242,19 @@ files. Cross-doc highlights only listed above as needed.
 ### This turn
 
 **Vision:**
+- **V-Q11-followup** → **All parallel** — screenshot, clip,
+  panel/storyboard, episode exporters built concurrently, no
+  sequencing/no deferral. See *Vision* §7.2.
+- **V-Q14** → **Resolved (initial batch).** Inspirations:
+  Hell's Paradise, Fate Zero/Stay Night/Heaven's Feel, Bleach,
+  Redo of Healer, Demon Slayer, My Dress-Up Darling, Berserk,
+  Goblin Slayer. Open-ended for additions. See *Vision* §7.3.
+- **V-Q17** → **Openly atheist** (Rahadoumi-style). See
+  *Religion and Devotion* §3.1.
+
+### Previous turn
+
+**Vision:**
 - **V-Q11** → **Yes** (committed). Scene-export tooling in scope —
   screenshot mode, clip recorder, panel/storyboard export, episode
   export — sequencing pending V-Q11-followup. Anchored by §7
