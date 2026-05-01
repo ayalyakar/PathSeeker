@@ -175,7 +175,6 @@ See `DESIGN - NPCs and Companions.md`. Highlights:
 
 See `DESIGN - Save and Persistence.md`. Highlights:
 
-- **SP-Q1** Save file format (binary, SQLite, mixed).
 - **SP-Q2** Save migration policy when schema evolves.
 
 ### Lore Reworks (LR-Q)
@@ -240,7 +239,33 @@ files. Cross-doc highlights only listed above as needed.
 
 ## Resolved Questions Archive
 
-### Foundational + cross-domain decisions (most recent turn)
+### This turn
+
+**Vision:**
+- **V-Q11** → **Yes** (committed). Scene-export tooling in scope —
+  screenshot mode, clip recorder, panel/storyboard export, episode
+  export — sequencing pending V-Q11-followup. Anchored by §7
+  "main focus" elevation.
+
+**Tech / Pipeline:**
+- **CP-Q1 / T-Q15** → re-confirmed: hybrid Markdown-w/-YAML-frontmatter
+  for prose, pure YAML for stats.
+- **T-Q5** → confirmed: folder layout per *Content Pipeline* §4;
+  manifest format = TOML.
+- **CP-Q3** → inline YAML `decisions:` block in source-tier file.
+- **CP-Q5** → paste-in-chat for small extracts; file drop in
+  `Content/Source/_raw/` for large; URL fetch when explicitly
+  provided.
+
+**People:**
+- **BI-Q1** → composed independent subsystems (skin, hair, wounds,
+  intimate, fitness, weight, adornments) aggregated onto a
+  `BodyState`. See *Body and Identity* §6.
+- **RD-Q1** → mixed patron model (single / multi / none all
+  supported). Gherman starts with **no patron**. V-Q17 left open
+  for his specific stance.
+
+### Foundational + cross-domain decisions (previous turn)
 
 **Vision V-Q follow-ups & new Q's:**
 - **V-Q2-followup** → Effectively unclassed (Option C hidden +

@@ -80,8 +80,24 @@ This applies to **Gherman** (per V-Q1 / N-Q1) and to **every NPC**
 
 ### Schema
 
-- **BI-Q1** State schema — single flat record per body, or composed
-  from independent subsystems (skin, hair, wounds, intimate, …)?
+- ~~**BI-Q1**~~ **Resolved (assistant pick: "best option").**
+  **Composed from independent subsystems** — separate stores for
+  skin, hair, wounds/scars, intimate state, fitness, weight,
+  adornments, etc., composed onto a body via a `BodyState` aggregate.
+  Rationale:
+  - Partial-load: only render scars when relevant; only tick
+    pregnancy on female-bodied NPCs; only track lactation when
+    induced.
+  - Modular save migration: each subsystem versions its schema
+    independently.
+  - Cleaner cross-doc ownership: *NSFW* owns intimate, *Survival
+    and Body Needs* owns fitness/weight, *Crime and Justice* owns
+    branding/scarification, *Magic* owns transformation overlays.
+  - Lower memory floor for low-fidelity NPCs (per NPC-Q tier):
+    crowd NPCs carry only `skin` + `hair` + `wounds`; named NPCs
+    add affects, fitness, intimate state; hero NPCs add full
+    history.
+  - Schema authoring lives in `Content/Schema/Body/<subsystem>.yaml`.
 - **BI-Q2** Persistence granularity — per-pixel scarring locations,
   per-location-region (left forearm, right thigh), per-zone (torso,
   legs, head), simpler?

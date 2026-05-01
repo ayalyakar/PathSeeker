@@ -118,9 +118,15 @@ files in a subsequent autonomous Backlog edit.
   *Audio*, *NPCs and Companions* and add anime-conventions
   guidance sections (per *Vision* §7). **Elevated priority** since
   anime focus is now main project intent.
-- **BL-0023** - [ ] **Decide: V-Q11 (re-posed)** — scene / clip /
-  storyboard export tooling commitment. **Promoted from "deferred"
-  to "likely-needed"** per *Vision* §7 elevation.
+- **BL-0023** - [x] **Decide: V-Q11** — scene/clip/storyboard
+  export tooling. Resolved: **Yes**, multiple exporters in scope
+  (screenshot, clip, panel, episode), sequencing pending
+  V-Q11-followup. Spawns BL-0023a.
+- **BL-0023a** - [ ] **Decide: V-Q11-followup** — sequencing /
+  per-tool fidelity for the export menu (screenshot mode → clip
+  recorder → storyboard export → episode export). Pick a priority
+  order or request all parallel. → *Vision* §9 V-Q11-followup,
+  *Tech and Engine*.
 - **BL-0024** - [x] **Decide: V-Q12** — no archetype, surface-level
   only.
 - **BL-0025** - [x] **Decide: V-Q13** — looks human, modern outfit,
@@ -154,8 +160,8 @@ files in a subsequent autonomous Backlog edit.
 - **BL-0032** - [ ] **Build: session-start ritual prompt**
   per *Workflow* §11. Optional: a session-start template the
   assistant follows automatically.
-- **BL-0033** - [ ] **Decide: T-Q5** — plugin folder layout
-  + manifest format (now that MD-Q1 = TOML).
+- **BL-0033** - [x] **Decide: T-Q5** — plugin folder layout
+  per *Content Pipeline* §4 confirmed; manifest format = TOML.
 - **BL-0034** - [ ] **Decide: SP-Q2 / SP-Q3** — auto-save cadence
   details + history semantics (log preserved across loads vs
   classical undo). → *Save and Persistence*.
@@ -169,9 +175,25 @@ files in a subsequent autonomous Backlog edit.
   proposal** per LR-004 (LR-Q5–LR-Q8).
 - **BL-0039** - [ ] **Backfill: italics + first-mention links
   pass** across existing docs per IDX-Q2 resolution.
-- **BL-0040** - [ ] **Re-pose: BI-Q1 and RD-Q1** — user asked
-  "What?" — assistant to re-explain in clearer terms (handled
-  in next-turn response).
+- **BL-0040** - [x] **Re-pose: BI-Q1 and RD-Q1** — re-explained
+  next turn; both resolved: BI-Q1 = composed subsystems, RD-Q1 =
+  mixed patrons / Gherman has none.
+- **BL-0041** - [ ] **Decide: V-Q17** — Gherman's stance toward
+  the divine (atheist / agnostic / pre-faith / hostile). → *Vision*
+  §9.
+- **BL-0042** - [ ] **Decide: CP-Q3 implementation** — define the
+  YAML decisions-block schema (timestamp, question-ID, answer,
+  rationale fields). → *Content Pipeline* §2.2.
+- **BL-0043** - [ ] **Build: `Content/Source/_raw/` gitignore
+  entry** when the Content/ folder is created.
+- **BL-0044** - [x] **Decide: CP-Q1 / T-Q15** — re-confirmed this
+  turn (hybrid format).
+- **BL-0045** - [x] **Decide: CP-Q3** — inline YAML decisions
+  block (Option a).
+- **BL-0046** - [x] **Decide: CP-Q5** — paste / file-drop hybrid.
+- **BL-0047** - [x] **Decide: BI-Q1** — composed subsystems.
+- **BL-0048** - [x] **Decide: RD-Q1** — mixed patron model;
+  Gherman has none.
 
 ## Cross-References
 

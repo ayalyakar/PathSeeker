@@ -298,17 +298,11 @@ Proposed convention:
   classes, ancestries, encounters). Rationale: best authoring
   experience per content type, both human-readable and
   machine-parseable.
-- **T-Q2.** Language polyglot: confirm proposal in §2 (C# core +
-  GDScript glue + C++/Rust reserved + Python tooling) or pick a
-  single-language stance (e.g., all-C# / all-GDScript).
-- **T-Q3.** Data layer: confirm hybrid stack in §3 (JSON source →
-  SQLite runtime → in-memory + graph projection) or specify another
-  shape (pure SQLite, pure JSON, document store, custom binary).
-- **T-Q4.** Windows version baseline (10? 11?) and minimum hardware
-  target.
-- **T-Q5.** Plugin system: confirm folder layout in §6 or specify
-  another shape; first-class plugin manifest format (TOML, JSON,
-  YAML, custom).
+- ~~T-Q5.~~ **Resolved.** Plugin folder layout per *Content Pipeline*
+  §4 confirmed (`Content/<Category>/<Plugin Name>/` with `Source/`,
+  `Build/`, `Schema/` subtree, `_raw/` gitignored). **Manifest
+  format pending — assistant pick: TOML** (per "best option" cue).
+  → propagated to *Modding and Extensibility* MD-Q1.
 - **T-Q6.** Local LLM stack: which inference backend (llama.cpp,
   vLLM, koboldcpp, Ollama, ExLlamaV2, custom)?
 - **T-Q7.** Local LLM model lineup: which models for narrative /

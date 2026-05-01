@@ -55,7 +55,13 @@ A devotee carries:
 
 ## 5. Open Questions (Religion-Local)
 
-- **RD-Q1** Patron count — single-patron, multi-patron, none?
+- ~~**RD-Q1**~~ **Resolved.** **Mixed patron model.** The system
+  supports **single-patron, multi-patron, and none** — every NPC and
+  the player can occupy any state, including transitioning between.
+  Multi-patron worship is canonical Golarion (and explicit Remaster).
+  **Gherman starts with no patron deity** at game open (V-Q17 left
+  open for his specific stance: atheist / agnostic-by-default /
+  pre-faith / actively hostile).
 - **RD-Q2** Observance scoring — explicit numeric, narrative-only,
   hidden-from-player?
 - **RD-Q3** Standing tiers — discrete (favored / warded / chosen /

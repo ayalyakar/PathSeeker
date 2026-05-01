@@ -187,6 +187,9 @@ moments throughout the game come back to this fact.
     political lever).
   - *Body and Identity* (the chapel discovers and documents
     Gherman's body state on intake — tattoo, outfit, "wrongness").
+- **Gherman has no patron deity** at game start (resolved RD-Q1
+  this turn). Sarenrae's chapel is his *first NPC contact*, not his
+  faith. Specific stance toward the divine pending V-Q17.
 
 ## 5. Solo PC, Lifelike Party
 
@@ -351,19 +354,24 @@ changes:
 
 ### Re-posed / Open
 
-- **V-Q11 (re-posed).** Now that anime focus is **main project
-  focus** (§7), what scene-export tooling does the project commit
-  to? Restated options:
-  - **(a) None** — players use OBS / OS-level screenshot tools.
-  - **(b) Built-in screenshot mode** — pause-and-frame, anime-
-    composed shot, cel-shaded output.
-  - **(c) Built-in clip recorder** — record N seconds of locked-
-    camera scene; export as video.
-  - **(d) Storyboard export** — export a multi-frame "manga panel"
+- ~~V-Q11.~~ **Resolved (this turn).** **Yes** — scene-export
+  tooling is committed. Interpreted as **Option (f): multiple of
+  the below, deferred to specific milestones**, given the elevated
+  anime focus. The full menu (screenshot mode, clip recorder,
+  storyboard export, episode export) is in scope; sequencing TBD
+  per V-Q11-followup.
+- **V-Q11-followup.** **(New.)** Sequencing and per-tool fidelity
+  of the export menu:
+  - **(a) Screenshot mode** — pause-and-frame, anime-composed
+    shot, cel-shaded output.
+  - **(b) Clip recorder** — record N seconds of locked-camera
+    scene; export as video.
+  - **(c) Storyboard / panel export** — multi-frame "manga panel"
     layout from a scene with dialogue overlay.
-  - **(e) Episode export** — full editor-level scene export for
+  - **(d) Episode export** — editor-level scene export for
     splicing into a pre-produced anime episode.
-  - **(f) Multiple of the above**, deferred to specific milestones.
+  - Pick a priority order for these (e.g., a → b → c → d), or
+    request all parallel.
 - **V-Q14.** **(New.)** Anime / manga / light-novel reference
   inspiration list — the user has committed to "tons of
   inspirations." Please enumerate (or batch-dump) the references
@@ -380,3 +388,8 @@ changes:
   smell, dim aura, micro-mannerisms, divinatory residue, deity-
   detectable, eye-shape, walk-pattern, deja-vu reaction in others,
   pure narrative.
+- **V-Q17.** **(New, from RD-Q1 resolution this turn.)** Gherman
+  starts with **no patron deity** (resolved). His relationship to
+  the divine in this Golarion: openly atheist, agnostic-by-default,
+  pre-faith (open to development through play), or actively
+  hostile to the divine (Rahadoumi-style)?

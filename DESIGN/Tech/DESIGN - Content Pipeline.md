@@ -50,13 +50,20 @@ Design goals:
 ### 2.2 Source Tier (`Content/Source/...`)
 
 - Per-extract files written by hand during the import workflow.
-- Format: pending T-Q15.
+- Format (resolved CP-Q1 / T-Q15): **hybrid** —
+  - **Markdown with YAML frontmatter** for prose-heavy content
+    (lore, scenes, dialogue, descriptions, AP chapters, NPC bios).
+  - **Pure YAML** for stat-heavy content (spells, feats, items,
+    monsters, ancestries, classes, runes, encounters).
 - Each file:
-  - Identifies the source (book, page, edition, year).
-  - Holds the **converted-to-Remaster** content as the user decides.
-  - Includes a `decisions:` block recording every Q&A from the
-    extract import session.
-  - Cross-references related extracts.
+  - Identifies the source (book, page, edition, year) in
+    frontmatter / top YAML.
+  - Holds the **converted-to-Remaster** content per user decisions.
+  - Includes an **inline `decisions:` YAML block** (resolved
+    CP-Q3) recording every Q&A from the extract import session,
+    with timestamps and *Open Questions* IDs where applicable.
+  - Cross-references related extracts via plugin-scoped IDs
+    (`<plugin>:<slug>`).
 
 ### 2.3 Canonical Tier (`Content/Build/canonical.sqlite`)
 
@@ -90,12 +97,13 @@ For each extract:
 7. Commit on the working branch with a message summarizing the
    extract.
 
-## 4. Folder Layout (proposed; pending T-Q5 plugin layout)
+## 4. Folder Layout (resolved T-Q5)
 
 ```
 PathSeeker/
 └── Content/
     ├── Source/
+    │   ├── _raw/                       (gitignored; raw extracts dev-only)
     │   ├── Core/
     │   │   ├── Player Core/
     │   │   ├── GM Core/
@@ -110,9 +118,9 @@ PathSeeker/
     │   ├── Third-Party/
     │   └── Original/
     ├── Build/
-    │   └── canonical.sqlite      (generated)
+    │   └── canonical.sqlite            (generated)
     └── Schema/
-        └── *.json or *.cue       (validation schemas)
+        └── *.json or *.cue             (validation schemas; CP-Q2)
 ```
 
 ## 5. Cross-References
@@ -140,10 +148,9 @@ PathSeeker/
   - **(b) CUE** — typed, composable, expressive.
   - **(c) Pydantic / typed Python models** — code-as-schema.
   - **(d) Custom validator written in C# tied to the runtime types.**
-- **CP-Q3** Per-extract user-decision capture format. Options:
-  - **(a) Decisions block as YAML/TOML inside the source-tier file.**
-  - **(b) Sidecar `<extract>.decisions.md` file.**
-  - **(c) Both: inline summary + sidecar narrative.**
+- ~~**CP-Q3**~~ **Resolved.** Decisions block as **inline YAML
+  inside the source-tier file** (Option (a)). Every extract carries
+  its own decision log with the converted content; no sidecars.
 - **CP-Q4** Build-tool language. Options:
   - **(a) Python** — best ecosystem for parsing/regex/scraping.
   - **(b) C# (matching engine choice)** — single-language stack.
@@ -151,8 +158,11 @@ PathSeeker/
 
 ### Source acquisition
 
-- **CP-Q5** How does the user provide raw source — paste in chat, file
-  drop in `Content/Source/_raw/`, URL fetch?
+- ~~**CP-Q5**~~ **Resolved.** **Paste in chat for small extracts;
+  file drop in `Content/Source/_raw/` for large ones.** URL fetch
+  available when the user explicitly hands me a URL. The
+  `_raw/` folder is gitignored (raw sources are dev-only, not
+  committed per §2.1).
 - **CP-Q6** OCR pipeline if PDFs only (Tesseract, cloud OCR, manual
   cleanup)?
 - **CP-Q7** Scrape policy for community datasets (Archives of Nethys,
