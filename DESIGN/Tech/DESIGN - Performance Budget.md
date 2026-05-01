@@ -12,6 +12,12 @@ Personal Windows-only target (Q34) gives us a single hardware
 profile to optimize for, but the game is ambitious enough that
 budgets must be explicit, not implicit.
 
+**Cinematic density commitment (per V-Q15, resolved):** the budget
+must accommodate **BG3-frequent micro-moments + episode-style
+set-pieces + anime-grade keyframe density**. Cinematic time is a
+first-class consumer of the frame/render/animation/audio budget,
+not an exception. Numeric anchor pending V-Q15-followup.
+
 ## 2. Targets (proposed; pending PB-Q1+)
 
 | Target | Value (proposed) |

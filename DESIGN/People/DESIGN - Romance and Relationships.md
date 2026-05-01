@@ -45,6 +45,29 @@ Each NPC↔X (where X may be the player or another NPC) carries:
 This replaces the BG3-style single approval axis with a richer
 graph (per NPC-Q12).
 
+### 3.1 Magnetism baseline (per V-Q16 / *Vision* §4.4.1)
+
+Every NPC↔Gherman bond carries a **`Magnetism` baseline modifier**
+that *biases the affect map upward on attraction-related axes*
+(Lust, Attachment, Devotion) and *downward on resistance-related
+axes* (Reluctance, Suspicion). Strength scales by NPC attraction
+profile (default-leans-female), proximity, prior exposure.
+
+**Implications for romance design:**
+
+- Romance arcs with female (or male-attracted-to-men) NPCs have
+  **non-zero starting affect** even on first meeting. This is the
+  diegetic reason an anime-protagonist romance can move quickly.
+- **Resistant** NPCs (high willpower, ace/aro orientation,
+  hostile faction loyalty) can hold the magnetism in subliminal
+  band for long stretches — but it is never *zero*.
+- **Obsession-band** NPCs may pursue Gherman despite his
+  rejection; the romance system models that asymmetry honestly
+  (per *NSFW* / consent-axis design — magnetism is **not**
+  consent-conferring).
+- **Existing partners** of obsession-band NPCs notice; jealousy,
+  cuckoldry, and betrayal arcs become real possibilities.
+
 ## 4. Cross-References
 
 - *NSFW* — explicit layer.

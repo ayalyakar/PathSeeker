@@ -12,6 +12,11 @@
 - **First-person free-look** is default (Q27).
 - **Camera-locked / framed** for dialogue, cinematics, NSFW scenes,
   rituals, executions, key beats.
+- **Cinematic density: BG3-frequent and more** (resolved V-Q15) —
+  micro-moments throughout play (BG3-frequent baseline) **plus**
+  episode-style set-pieces, all the way up to anime-grade scene
+  density. Sized for an upper-bound cinematic budget, not a polite
+  AAA average.
 - **Smooth transitions** between modes are non-negotiable.
 - **Cinematography language**: scenes are *directed*, not just
   rendered.

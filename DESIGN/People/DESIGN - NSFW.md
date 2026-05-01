@@ -117,6 +117,31 @@ This pairs cleanly with *Vision* §4.1 (canonical identity) and the
 *Body and Identity* doc (TBD) which will codify the state-tracking
 specifics.
 
+### 5.2 Magnetism as Scene-Emergence Engine (per V-Q16)
+
+The **Magnetism** channel from *Vision* §4.4.1 is the diegetic
+engine that drives intimate-scene emergence. Where most games
+require explicit player initiation (dialogue choice, romance gate,
+quest trigger), PathSeeker's NSFW scenes can emerge organically
+because the world has a real reason for them to:
+
+- NPCs in **infatuation** band may proposition Gherman during
+  ordinary interaction; he can accept or refuse.
+- NPCs in **obsession** band actively pursue intimacy with him —
+  some respect a refusal, some don't (depending on personality).
+  This produces both **welcome romantic intensity** and **stalking
+  / coercion / dub-con** scenarios with full mechanical fidelity.
+- The magnetism is **not consent-conferring.** A Magnetism-driven
+  NPC pursuing Gherman is **not implicitly authorized** by the
+  pull. The system models *Magnetism causes pursuit* but
+  *consent is a separate axis* — both Gherman's consent and the
+  NPC's awareness-of-being-magneted are tracked and surfaced as
+  appropriate to the scene.
+- The transgressive-content commitments (per §1, §6, V-Q14
+  inspirations) become **systemically grounded** — emergent dub-
+  con / non-con scenarios are not contrived; the magnetism makes
+  them plausible.
+
 ## 6. Hard Limits
 
 **The single absolute hard refusal:**

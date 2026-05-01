@@ -135,7 +135,7 @@ This means:
 - The unique quirks (V-Q2-quirks) are **mixed flavor and currently
   unknown** to design — to be authored as the class arc emerges.
 
-### 4.4 Visible Anachronism and "Wrongness" (resolved V-Q13)
+### 4.4 Visible Anachronism and "Wrongness" (resolved V-Q13, V-Q16)
 
 - Gherman **looks like any other human** at a glance — body, face,
   height, build all read as human-Golarion.
@@ -146,19 +146,115 @@ This means:
   Golarion-appropriate clothing. *Body and Identity* tracks any
   pieces he keeps as persistent mementos.
 - Even after dressing down, **everyone can tell something is off
-  about him** — undefined "wrongness" that NPCs sense without being
-  able to name it. The mechanism is intentionally vague (smell,
-  aura, micro-mannerisms, divinatory residue, deity-detectable —
-  pending later design). It affects:
-  - First impressions (NPC reactions in *Dialogue*, *NPCs and
-    Companions*, *Crime and Justice*).
-  - Magical detection (divinations, *detect outsider*-like effects).
-  - Faction reactivity (religious, scholarly, paranoid factions).
-  - Romance / intimacy beats — partners sense it on physical contact.
+  about him** — pervasive non-verbal signal that NPCs sense
+  without being able to name it.
 
-This is a **load-bearing scene-design lever**: the protagonist
-permanently carries an aura of foreignness, and a thousand small
-moments throughout the game come back to this fact.
+#### 4.4.1 The two mechanisms (resolved V-Q16)
+
+The "wrongness" decomposes into **two distinct, simultaneously-
+active effects** that NPCs feel at the same time:
+
+##### A) Magnetism
+
+> An **unmistakable pull** toward Gherman, variable in intensity
+> from **lightly noticed** to **obsession**, with everything in
+> between. **Especially affects women** (single or partnered alike).
+> Women in committed relationships are *not* immune — the magnetism
+> is strong enough to fray vows, justify infidelity to one's own
+> conscience, or draw uninvited attention even on first sight.
+
+Mechanically (proposed; see *NPCs and Companions*, *Romance and
+Relationships*, *NSFW*):
+
+- A `Magnetism` modifier applies on every NPC interaction with
+  Gherman, scaled by **NPC personality** (resistance, openness,
+  attraction profile), **proximity**, **prior exposure** (it grows
+  with familiarity), and **NPC current mood / vulnerability**.
+- Outcome bands: **subliminal** (NPC notices nothing consciously
+  but their behavior shifts), **noticed** (NPC is aware of being
+  drawn), **infatuation** (NPC's autonomous goals start including
+  Gherman), **obsession** (NPC's autonomous goals are dominated by
+  Gherman; jealousy, possessiveness, breakdown if denied).
+- "Especially women" is the default attraction profile, but is
+  modulated by individual NPC orientation and personality —
+  straight men, asexual/aromantic NPCs, and women with strong
+  resistance can land in lower bands; even hostile resistance
+  doesn't *eliminate* the pull, only suppresses it.
+- The magnetism is **not consent-conferring** for *NSFW*
+  purposes. NPCs in obsession-band states may pursue intimacy
+  Gherman doesn't reciprocate; the system models that asymmetry
+  honestly. Likewise, Gherman's reciprocation under magnetism is
+  not pre-determined — the player picks his behavior.
+
+##### B) Ambiguous aura
+
+> A **strange aura** that NPCs perceive as **"something wrong"** —
+> but **most cannot tell whether it's wrong in the *good* sense or
+> the *bad* sense**. Reactions split unpredictably between
+> protective drawing-toward and instinctive recoil, and many NPCs
+> oscillate between the two.
+
+Mechanically (proposed):
+
+- An `Aura` modifier separate from magnetism — a perceptibility
+  signal coloring NPC instinct.
+- Per-NPC roll on first contact assigns a **read polarity**
+  (positive / negative / unreadable), modulated by NPC training
+  in occult / religious detection (priests, witches, oracles, and
+  certain trained NPCs read more accurately, sometimes uncovering
+  the underlying isekai-outsider truth).
+- The polarity is **not the truth** — it is the NPC's gut. Two
+  NPCs may meet Gherman together and form opposite reads.
+- Cumulative interaction can shift the read; betrayal or kindness
+  consolidates it.
+- Religious factions, divinatory NPCs, and entities with
+  alignment-replacement-trait sensitivity (`sanctified`/`unholy`/
+  spirit-detection) get **distinctive but ambiguous** results
+  rather than the empty *void* read that V-Q17 atheism produces.
+  The two signals (atheism-void + ambiguous-aura) compound to
+  make Gherman an **interesting puzzle** to any NPC paying
+  attention.
+
+##### How the two interact
+
+- A given NPC can be **drawn-by-magnetism + recoiling-by-aura**
+  simultaneously, producing the classic anime-protagonist effect
+  of "I can't stop watching him and I don't know why I'm afraid."
+- Or **drawn-by-magnetism + drawn-by-aura** — instant, unsettling
+  attachment.
+- Or **resistant-magnetism + recoiling-aura** — outright hostile.
+- Or **resistant-magnetism + drawn-aura** — a curious wary
+  protector.
+- The four-quadrant model is a useful first approximation; the
+  actual mechanic resolves with continuous values (see open
+  follow-ups in §9).
+
+The two mechanisms are the engine that makes Gherman behave like
+an **anime protagonist** in the world: improbable harem dynamics
+become diegetic; emergent NSFW scenes have a believable in-fiction
+trigger; faction tensions form around him organically; Sarenrae's
+chapel staff find themselves both pulled to and disturbed by him
+on day one.
+
+#### 4.4.2 Surfaces affected
+
+The "wrongness" mechanism is a **load-bearing scene-design lever**.
+A thousand small moments throughout the game come back to it:
+
+- **First impressions** (NPC reactions in *Dialogue*, *NPCs and
+  Companions*, *Crime and Justice*).
+- **Magical detection** (divinations, *detect outsider*-like
+  effects, certain rituals).
+- **Faction reactivity** (religious orders read his aura;
+  scholarly factions notice his outfit; paranoid factions notice
+  both).
+- **Romance / intimacy beats** — partners sense it on physical
+  contact; cumulative exposure consolidates polarity.
+- **NSFW emergence** — the magnetism is the engine that turns
+  ambient interaction into intimate possibility.
+- **Witnessing crimes** — witness reliability is colored by their
+  read of Gherman; some refuse to testify against him, others
+  fixate on him as the obvious suspect regardless of evidence.
 
 ### 4.5 Implications
 
@@ -398,26 +494,36 @@ guidance is folded in (per Backlog BL-0022).
 ### Re-posed / Open
 
 - ~~V-Q11.~~ **Resolved.** **Yes** — full export-menu committed.
-- ~~V-Q11-followup.~~ **Resolved.** **All parallel** — screenshot
-  mode, clip recorder, storyboard/panel export, episode export
-  built concurrently (no sequencing, no deferral). See §7.2.
-- ~~V-Q14.~~ **Resolved (initial batch).** Inspiration list:
-  Hell's Paradise, Fate Zero/Stay Night/Heaven's Feel, Bleach,
-  Redo of Healer, Demon Slayer, My Dress-Up Darling, Berserk,
-  Goblin Slayer. List is open-ended; further additions accepted
-  at any time. See §7.3.
-- ~~V-Q17.~~ **Resolved.** Gherman is **openly atheist** —
-  Rahadoumi-style (refuses divine worship even though gods are
-  empirically real in Golarion). Implications captured in
+- ~~V-Q11-followup.~~ **Resolved.** **All parallel.**
+- ~~V-Q14.~~ **Resolved (initial batch).** Inspirations list. See §7.3.
+- ~~V-Q15.~~ **Resolved.** Cinematic density = **BG3-frequent and
+  more** — micro-moments throughout play **plus** episode-style
+  set-pieces, anime-density. Cross-doc commitment: *Camera and
+  Cinematography*, *Animation Pipeline*, *Audio*, *Performance
+  Budget* now all sized for an upper-bound cinematic budget.
+- ~~V-Q16.~~ **Resolved.** Two-channel "wrongness" — Magnetism
+  (variable, especially women, single or not) + ambiguous Aura
+  (good/bad polarity unreadable to most). See §4.4.1.
+- ~~V-Q17.~~ **Resolved.** Openly atheist (Rahadoumi-style). See
   *Religion and Devotion* §3.1.
-- **V-Q15.** Cinematic density — CC-Q1 was answered "lots of
-  cinematics." Define the rough budget: (a) one major cinematic
-  per quest beat, (b) cinematic micro-moments throughout play
-  (BG3-frequent), (c) episode-style set-piece cadence (one big
-  sequence per ~hour of play), (d) all of the above scaled to
-  scene importance.
-- **V-Q16.** "Wrongness" mechanism (§4.4) — pre-author what NPCs
-  are actually picking up, or leave it loose? Candidates: smell,
-  dim aura, micro-mannerisms, divinatory residue, deity-
-  detectable, eye-shape, walk-pattern, deja-vu reaction in others,
-  pure narrative.
+
+### New (this turn)
+
+- **V-Q16-followup-A** **Magnetism scale** — confirm the four-band
+  model (subliminal / noticed / infatuation / obsession) or pick a
+  different shape; per-NPC growth curves; reset/decay rules; cap
+  on simultaneous obsession-band NPCs (or no cap)?
+- **V-Q16-followup-B** **Magnetism orientation override** — when a
+  straight male NPC encounters Gherman, does the magnetism still
+  apply (in a "I admire him / want to be like him" non-sexual way)
+  or is the effect strictly attraction-tracked, applying only to
+  NPCs whose orientation includes male partners?
+- **V-Q16-followup-C** **Aura on first-meet randomness** — pure RNG
+  per NPC, deterministic-from-NPC-personality, hybrid?
+- **V-Q16-followup-D** **Aura visibility to player** — does the
+  player ever see what an NPC's read polarity is, or stays
+  diegetic-only (player must infer from NPC behavior)?
+- **V-Q15-followup** **Cinematic density numeric anchor** — rough
+  count per hour of play (3+ micro-moments, 1 episode-set-piece
+  per hour, etc.) so *Performance Budget* can size the cinematic
+  shader/anim budget concretely.

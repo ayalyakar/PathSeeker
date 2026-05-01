@@ -242,13 +242,23 @@ files. Cross-doc highlights only listed above as needed.
 ### This turn
 
 **Vision:**
-- **V-Q11-followup** → **All parallel** — screenshot, clip,
-  panel/storyboard, episode exporters built concurrently, no
-  sequencing/no deferral. See *Vision* §7.2.
-- **V-Q14** → **Resolved (initial batch).** Inspirations:
-  Hell's Paradise, Fate Zero/Stay Night/Heaven's Feel, Bleach,
-  Redo of Healer, Demon Slayer, My Dress-Up Darling, Berserk,
-  Goblin Slayer. Open-ended for additions. See *Vision* §7.3.
+- **V-Q15** → **BG3-frequent and more** — anime-grade cinematic
+  density. Cross-doc commitment: *Camera and Cinematography*,
+  *Animation Pipeline*, *Audio*, *Performance Budget* all sized
+  for upper-bound cinematic budget. Numeric anchor pending
+  V-Q15-followup.
+- **V-Q16** → **Two-channel "wrongness"** — `Magnetism` (variable
+  pull, especially women, single or partnered) + ambiguous `Aura`
+  (good/bad polarity unreadable to most). See *Vision* §4.4.1.
+  Engine for emergent NSFW (per *NSFW* §5.2), romance baseline
+  (per *Romance and Relationships* §3.1), NPC reaction model
+  (per *NPCs and Companions* §4.1).
+
+### Previous turn
+
+**Vision:**
+- **V-Q11-followup** → **All parallel.**
+- **V-Q14** → **Resolved (initial batch).** Inspirations list.
 - **V-Q17** → **Openly atheist** (Rahadoumi-style). See
   *Religion and Devotion* §3.1.
 

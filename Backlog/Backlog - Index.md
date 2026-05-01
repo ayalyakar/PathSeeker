@@ -144,11 +144,14 @@ files in a subsequent autonomous Backlog edit.
   Fate Zero/Stay Night/Heaven's Feel, Bleach, Redo of Healer,
   Demon Slayer, My Dress-Up Darling, Berserk, Goblin Slayer.
   Open-ended for further additions. → *Vision* §7.3.
-- **BL-0028** - [ ] **Decide: V-Q15** — cinematic density budget
-  (one-per-quest-beat / BG3-frequent / episode-set-piece / scaled).
-- **BL-0029** - [ ] **Decide: V-Q16** — "wrongness" mechanism
-  (smell / aura / mannerisms / divinatory / deity-detectable /
-  pure narrative).
+- **BL-0028** - [x] **Decide: V-Q15** — cinematic density:
+  **BG3-frequent and more** (anime-grade upper-bound). Spawns
+  BL-0057 for numeric anchor.
+- **BL-0029** - [x] **Decide: V-Q16** — two-channel wrongness:
+  **Magnetism** (variable pull, especially women, single or
+  partnered) + **Aura** (ambiguous good/bad polarity). See
+  *Vision* §4.4.1. Spawns BL-0058–0061 for implementation work
+  and follow-up decisions.
 - **BL-0030** - [ ] **Build: anime-archetype-FREE writing
   guidance** — per V-Q12 resolution, document the "no archetype"
   writing rule as a guidance section in *Romance and Relationships*,
@@ -228,6 +231,34 @@ files in a subsequent autonomous Backlog edit.
   apply it backwards across existing docs where a tonal claim
   could be grounded in one of the V-Q14 inspirations. → *Vision*
   §7.3.
+- **BL-0057** - [ ] **Decide: V-Q15-followup** — numeric anchor
+  for cinematic density (e.g., 3+ micro-moments per in-game hour,
+  1 episode-set-piece per N hours). Drives *Performance Budget*.
+- **BL-0058** - [ ] **Build: Magnetism mechanic** — `Magnetism`
+  modifier per NPC↔Gherman edge, four-band outcomes (subliminal /
+  noticed / infatuation / obsession), per-NPC growth curves,
+  decay rules. → *NPCs and Companions* §4.1, *Romance and
+  Relationships* §3.1, *NSFW* §5.2.
+- **BL-0059** - [ ] **Build: Aura mechanic** — `Aura` read
+  polarity per NPC↔Gherman first-contact, modulated by
+  detection-trained NPCs, drift over interaction history. →
+  *NPCs and Companions* §4.1.
+- **BL-0060** - [ ] **Decide: V-Q16-followup-A** — Magnetism scale
+  details (band thresholds, growth curves, decay, simultaneous-
+  obsession cap).
+- **BL-0061** - [ ] **Decide: V-Q16-followup-B** — Magnetism on
+  straight-male NPCs (non-sexual admiration channel vs orientation-
+  gated).
+- **BL-0062** - [ ] **Decide: V-Q16-followup-C** — Aura first-meet
+  randomness (RNG / personality-deterministic / hybrid).
+- **BL-0063** - [ ] **Decide: V-Q16-followup-D** — Aura player
+  visibility (diegetic-only vs surfaced).
+- **BL-0064** - [ ] **Magnetism + Consent axis design** — the
+  Magnetism is *not* consent-conferring (per *NSFW* §5.2 / *Vision*
+  §4.4.1). Define the consent-axis interaction so dub-con / non-con
+  scenes triggered by obsession-band NPCs render with full
+  mechanical fidelity (transgressive grounding per *Berserk* /
+  *Heaven's Feel* / *Redo of Healer* inspirations).
 - **BL-0056** - [ ] **Per-domain anime-inspirations pass**
   (extension of BL-0022): for each of *Combat*, *Magic*,
   *Animation Pipeline*, *Camera and Cinematography*, *Dialogue

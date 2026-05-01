@@ -79,6 +79,34 @@ Constraints:
 
 See NPC-Q1 for memory model options.
 
+### 4.1 Reaction to Gherman: Magnetism + Aura (per V-Q16)
+
+Every NPC interaction with Gherman consults the two **wrongness
+channels** defined in *Vision* §4.4.1:
+
+- A **`Magnetism`** modifier — pull toward Gherman, scaled by NPC
+  attraction profile (default-leans-female), proximity, prior
+  exposure, mood/vulnerability. Outcome bands:
+  *subliminal → noticed → infatuation → obsession.*
+- An **`Aura`** read polarity — `positive | negative | unreadable`
+  with continuous sub-values. NPCs trained in occult/religious
+  detection read more accurately. Two NPCs may form opposite
+  reads.
+- The two channels combine into a **four-quadrant baseline** for
+  NPC behavior: *drawn-recoiling*, *drawn-drawn*, *resistant-
+  recoiling*, *resistant-drawn*.
+
+This is the **engine** that makes Gherman behave like an anime
+protagonist diegetically — improbable harem dynamics become
+in-fiction grounded; NSFW emergence has plausible cause; faction
+tensions form around him organically.
+
+The implementation lives in this domain. Hooks for downstream:
+*Romance and Relationships* (M is the baseline romance modifier),
+*NSFW* (M is the intimate-emergence engine), *Crime and Justice*
+(witness reliability colored by both M and A), *Dialogue and
+Conversation* (NPC dialogue selection consults both channels).
+
 ## 5. Companions
 
 Companions are NPCs the player travels with. Differences from
