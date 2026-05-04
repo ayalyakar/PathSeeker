@@ -78,11 +78,18 @@ not an ignorance.
 
 **Narrative implications:**
 
-- **Ironic opening:** Gherman wakes up in **Sarenrae's chapel**
-  (per V-Q10), tended by faithful who saved his life via the
-  goddess they serve. The first scene is therefore loaded with
-  immediate tension — the player choice to express, conceal, or
-  weaponize his atheism is the first signature decision.
+- **Ironic opening:** Gherman wakes up in the **Church of Iomedae
+  in Falcon's Hollow** (resolved V-Q10, retconned this turn from
+  the earlier Sarenrae-chapel resolution per
+  `module:hlh:01-adventure-background` D-004), tended by faithful
+  Iomedaeans who saved his life via the goddess they serve.
+  Iomedae's portfolio (**valor, justice, honor**) is *more
+  confrontational* with Gherman's apathetic-cynical baseline (V-Q8)
+  and atheist refusal (V-Q17) than Sarenrae's gentle compassion
+  would have been. The first scene is loaded with immediate
+  tension — the player's choice to express, conceal, or weaponize
+  his atheism is the first signature decision, and the
+  Iomedaean clergy will press on it.
 - **Long-arc development:** Gherman's atheism can deepen
   (becoming actively iconoclastic, Rahadoumi-enlisted, deity-
   hunting), erode (slow conversion under pressure of evidence and

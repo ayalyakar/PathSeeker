@@ -1,0 +1,5 @@
+# Raw extracts — dev-only, not committed.
+# Per CP-Q5 / Content Pipeline §2.1 / §2.2:
+# Original source material (PDF excerpts, scrapes, etc.) lives here
+# during dev for traceability but is not part of the project repo.
+_raw/

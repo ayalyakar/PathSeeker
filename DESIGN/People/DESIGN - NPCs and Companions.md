@@ -33,8 +33,9 @@ Operating principles:
 
 | Type | Fidelity | Examples |
 |---|---|---|
-| **Hero NPC** | Highest — full memory, deep personality, voiced, recurring | Romanceable companions, AP main characters, named iconics |
-| **Named NPC** | High — personality, schedule, voice, memory | Quest givers, faction officers, important shopkeeps |
+| **MC NPC** | **Topmost** — narrative protagonists of the anime story (per *Vision* §4.6); full memory, deep personality, voiced, anime-archetype-bearing, recurring across all major arcs | The "heroes" NPCs (TBD per V-Q18) |
+| **Hero NPC** | High — full memory, deep personality, voiced, recurring | Romanceable companions, AP main characters, named iconics |
+| **Named NPC** | Medium-high — personality, schedule, voice, memory | Quest givers, faction officers, important shopkeeps |
 | **Background Named** | Medium — identity, schedule, light memory | Common townsfolk known by name |
 | **Anonymous Crowd** | Low — schedule + role, ephemeral memory | Patrons, travelers, generic guards |
 | **Critter** | Minimal | Wildlife, pests |
@@ -42,6 +43,30 @@ Operating principles:
 Higher tiers cost more memory, more authoring, more compute. Lower
 tiers can promote up to higher tiers when they become relevant
 (player names them, becomes friends, etc.).
+
+### 2.1 MC NPC tier — added this turn (per *Vision* §4.6)
+
+The **MC NPC tier** sits *above* Hero NPC and is reserved for the
+**heroes NPCs** — the anime story's actual protagonists. They are
+distinguished from Hero NPCs by:
+
+- **Narrative weight** — they get the cinematic spotlight; export
+  tooling (V-Q11) features them; their arcs drive the anime story
+  even when Gherman is elsewhere.
+- **Anime archetype slot** — V-Q12 archetype flavor *attaches to
+  MC NPCs* (kuudere, tsundere, fated rival, mentor, deuteragonist,
+  etc.) at first surface, deepened through play.
+- **Module / AP "PC slot" filling** — when content imports
+  reference "the adventurers," that slot is filled by MC NPCs by
+  default (per V-Q19, pending). Gherman is a participant
+  alongside, not a replacement.
+- **Permadeath cycling** — pending V-Q20 (replace / retire /
+  revive when an MC NPC dies).
+- **Romance with Gherman** is highest-stakes; his Magnetism (V-Q16)
+  applied to an MC NPC may reroute that NPC's arc, making the
+  Magnetism mechanic narratively significant rather than ambient.
+
+The MC roster itself is open per **V-Q18**.
 
 ## 3. NPC Brain (proposed)
 

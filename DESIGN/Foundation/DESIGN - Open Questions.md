@@ -239,7 +239,41 @@ files. Cross-doc highlights only listed above as needed.
 
 ## Resolved Questions Archive
 
-### This turn
+### This turn — first content extract import (HLH adventure background)
+
+**Vision:**
+- **V-Q10-followup** → **Iomedae church** (relocated from
+  Sarenrae's chapel). See *Vision* §4.3, §4.5; *Religion and
+  Devotion* §3.1; D-004 in `module:hlh:01-adventure-background`.
+- **(Major new directive)** *Vision* §4.6 — **Gherman is treated
+  as a SECONDARY narrative character. The "heroes" NPCs (TBD per
+  V-Q18) are the anime story's MCs.** Spawns V-Q18, V-Q19, V-Q20.
+  *NPCs and Companions* §2 adds **MC NPC** tier above Hero NPC.
+
+**HLH content-import decisions** (per
+`module:hlh:01-adventure-background` decisions log):
+- **D-001** Narrative timing → Option B (slice-of-life chapter 1,
+  HLH triggers chapter 2).
+- **D-002** Iomedae portfolio → preserve verbatim.
+- **D-003** Failed-prayer framing → DEFERRED (leaning local-
+  capacity + disease-resistance combined; final after full
+  sourcebook).
+- **D-004** Sarenrae vs Iomedae → Iomedae church only; V-Q10
+  retconned.
+- **D-005** Laurel → captured as Named-NPC stub.
+- **D-006** Capture-now for Brookman's Well, Blackscour, Wheezing
+  Death (alias), dead town elder (flavor), constabulary, Iomedae
+  church — done.
+- **D-007** Frontmatter shape + dual-section preservation +
+  decisions in frontmatter — confirmed; this is the template.
+- **D-008** Apostrophe handling in slugs → strip (no separator):
+  `falcons-hollow`, `brookmans-well`.
+- **D-009** Gherman secondary, heroes are MCs (see directive
+  above).
+- **D-010** Schema strictness → provisional/loose for first
+  extracts.
+
+### Previous turn
 
 **Vision:**
 - **V-Q15** → **BG3-frequent and more** — anime-grade cinematic

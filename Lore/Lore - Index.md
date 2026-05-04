@@ -26,6 +26,16 @@
 (Files will be created as content is imported and decided per the
 extract-by-extract import workflow.)
 
+### Imported so far
+
+| File | Source | Status |
+|---|---|---|
+| `Lore - Falcon's Hollow.md` | `module:hlh:01-adventure-background` | Stub (this turn) |
+| `Lore - Disease - Blackscour.md` | `module:hlh:01-adventure-background` | Stub (this turn) |
+| `Lore - NPC - Laurel.md` | `module:hlh:01-adventure-background` | Stub (this turn) |
+| `Lore - Faction - Falcon's Hollow Constabulary.md` | `module:hlh:01-adventure-background` | Stub (this turn) |
+| `Lore - Faction - Church of Iomedae (Falcon's Hollow).md` | `module:hlh:01-adventure-background` | Stub (this turn) |
+
 | File | Scope |
 |---|---|
 | `Lore - Cosmology.md` | The Great Beyond, planes, deities, souls, Pharasma's Boneyard |

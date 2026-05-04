@@ -94,8 +94,10 @@ files in a subsequent autonomous Backlog edit.
   per IDX-Q1 resolution. Executed this turn. Index updated.
 - **BL-0015** - [ ] **Reorg: split Backlog/ seed tasks into per-domain
   files** once enough tasks accumulate to warrant the split.
-- **BL-0016** - [x] **Decide: V-Q10-followup** — Sarenrae's chapel
-  in Falcon's Hollow.
+- **BL-0016** - [x] **Decide: V-Q10-followup** — RETCONNED.
+  Originally Sarenrae's chapel; re-resolved this turn to **Church
+  of Iomedae (Falcon's Hollow)** per
+  `module:hlh:01-adventure-background` D-004.
 - **BL-0017** - [x] **Decide: V-Q2-followup** — effectively unclassed
   (hidden + emergent). → *Vision* §4.3.1.
 - **BL-0018** - [ ] **Decide: V-Q3-followup + V-Q3-mechanism** —
@@ -132,10 +134,12 @@ files in a subsequent autonomous Backlog edit.
   pervasive "wrongness." → *Vision* §4.4.
 - **BL-0026** - [ ] **Lore: Falcon's Hollow / Darkmoon Vale**
   reference research — pull canonical material (settlement, NPCs,
-  Sitting Duck, Sarenrae chapel, Lumber Consortium, Foam River).
-  Decide reworks per *Lore Reworks* protocol when imported.
-  **Newly load-bearing** since BL-0016 confirmed Sarenrae's chapel
-  as the opening location.
+  Lumber Consortium, Foam River). **Partially advanced this turn**
+  via the HLH adventure-background extract (5 lore stubs created:
+  Falcon's Hollow, Blackscour, Laurel, Constabulary, Church of
+  Iomedae FH chapter). Remaining work: full settlement profile,
+  remaining NPCs, Lumber Consortium rework decision (LORE-FH-Q1),
+  district map, Sitting Duck inn, etc.
 
 ## Tasks added this turn (Apr-Sep)
 
@@ -259,6 +263,40 @@ files in a subsequent autonomous Backlog edit.
   scenes triggered by obsession-band NPCs render with full
   mechanical fidelity (transgressive grounding per *Berserk* /
   *Heaven's Feel* / *Redo of Healer* inspirations).
+
+## Tasks added this turn (HLH first-extract import)
+
+- **BL-0065** - [x] **Import: HLH p.3 Adventure Background** —
+  source-tier file written at
+  `Content/Source/Modules/Hollow's Last Hope/01 - Adventure Background.md`
+  with 10 decisions logged (D-001 through D-010).
+- **BL-0066** - [x] **Lore stubs created from HLH p.3 import**
+  — Falcon's Hollow, Blackscour, Laurel, Constabulary, Church of
+  Iomedae (FH chapter). 5 files in `Lore/`.
+- **BL-0067** - [ ] **Decide: V-Q18 — Heroes NPC roster** —
+  count, identity, composition, introduction timing, Gherman
+  default-relationship, mutability. **Single largest pending
+  design item** spawned by D-009 secondary-PC directive.
+  → *Vision* §4.6, *NPCs and Companions* §2.1.
+- **BL-0068** - [ ] **Decide: V-Q19 — Module-PC slot policy** —
+  do heroes always fill canonical "PC slots" rigidly, pre-emptively,
+  or as role-vacancy?
+- **BL-0069** - [ ] **Decide: V-Q20 — Hero permadeath cycling** —
+  replace / retire / revive when an MC NPC dies.
+- **BL-0070** - [ ] **Resolve deferred D-003** — failed-prayer
+  framing for Iomedae's chapter blackscour-cure attempts. Awaits
+  full HLH sourcebook injection. Leaning Option C (local-capacity
+  + disease-resistance combined).
+- **BL-0071** - [ ] **Open follow-ups from new lore stubs** —
+  LORE-FH-Q1 (Lumber Consortium rework), LORE-FH-Q3 (Sarenrae
+  presence after retcon), LORE-IFH-Q1 (senior cleric identity —
+  Hero/MC NPC promotion candidate), LORE-IFH-Q5 (atheism-void +
+  Aura ambiguous compound mechanic), LORE-BS-Q1/Q2 (blackscour
+  stat block + cure recipe).
+- **BL-0072** - [ ] **Workflow / Content Pipeline doc update** —
+  fold the secondary-PC directive into *Content Pipeline* §3
+  (extract-by-extract import protocol now records *who fills the
+  module's "PC" slot* — heroes by default, not Gherman).
 - **BL-0056** - [ ] **Per-domain anime-inspirations pass**
   (extension of BL-0022): for each of *Combat*, *Magic*,
   *Animation Pipeline*, *Camera and Cinematography*, *Dialogue

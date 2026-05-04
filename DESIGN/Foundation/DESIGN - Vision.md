@@ -99,8 +99,10 @@ of the long-arc plot threads — *not* an authorial deferral.
   Foam River near Falcon's Hollow** (frontier town in Andoran's
   Darkmoon Vale) and is brought into town to recover.
 - The player takes control when Gherman **wakes up in Falcon's
-  Hollow** — exact location pending V-Q10-followup (inn / tavern /
-  temple).
+  Hollow** at the **Church of Iomedae** (resolved V-Q10-followup
+  this turn → relocated from Sarenrae's chapel per
+  `module:hlh:01-adventure-background` D-004; see §4.3 and
+  §4.5).
 
 ### 4.3 Other Canonical Traits (resolved V-Q2, V-Q4–V-Q10, V-Q12, V-Q13)
 
@@ -113,7 +115,7 @@ of the long-arc plot threads — *not* an authorial deferral.
 | **V-Q7** | Distinctive marks | **Tattoo `08` on the inside of his right wrist** — meaning unknown to him *and to the design* (deferred to play-discovery per V-Q7-followup) |
 | **V-Q8** | Voice profile | **No accent**; **low register**; **apathetic baseline** with hints of **sarcasm** and **cynicism**; **world-worn 21**. Voice produced **synthetic-from-prompts** (no actor reference; per V-Q8-followup) |
 | **V-Q9** | Face | **Single canonical face**, designed by us; no face customization. **Designed after BL-0001 cel-shader spike** so face concept matches final renderer (per V-Q9-followup) |
-| **V-Q10** | Starting location | **Falcon's Hollow, Sarenrae's chapel** (Andoran, Darkmoon Vale). Found seemingly dead on the Foam River shore, brought to the chapel for vigil/recovery |
+| **V-Q10** | Starting location | **Falcon's Hollow, Church of Iomedae** (Andoran, Darkmoon Vale). Found seemingly dead on the Foam River shore, brought to the Iomedaean chapter for vigil/recovery. *(Retconned from earlier "Sarenrae's chapel" resolution per `module:hlh:01-adventure-background` decision D-004.)* |
 | **V-Q12** | Anime archetypes | **No archetype, or surface-level only.** Companions and NPCs do not start as kuudere/tsundere/etc. templates. Anime-archetype flavor may **light-touch** a character's early read but is not a starting structure |
 | **V-Q13** | Outsider perceptibility | Looks like any other human, but wears a **modern outfit** at game start. Beyond the outfit, **everyone can tell something is off** with him — see §4.4 |
 
@@ -230,11 +232,12 @@ Mechanically (proposed):
   follow-ups in §9).
 
 The two mechanisms are the engine that makes Gherman behave like
-an **anime protagonist** in the world: improbable harem dynamics
-become diegetic; emergent NSFW scenes have a believable in-fiction
-trigger; faction tensions form around him organically; Sarenrae's
-chapel staff find themselves both pulled to and disturbed by him
-on day one.
+an **anime supporting character with main-character magnetism**
+in the world: improbable harem dynamics become diegetic; emergent
+NSFW scenes have a believable in-fiction trigger; faction
+tensions form around him organically; the **Iomedaean clergy**
+who recovered him find themselves both pulled to and disturbed
+by him on day one.
 
 #### 4.4.2 Surfaces affected
 
@@ -272,20 +275,92 @@ A thousand small moments throughout the game come back to it:
   Voice is synthetic-from-prompts.
 - **Aging 1:1 with world** + persistent world means decades-long
   playthroughs are coherent.
-- **Falcon's Hollow / Sarenrae's chapel opening** anchors the
-  early game in **Andoran's Darkmoon Vale** with a Sarenrae-
-  aligned cleric/healer as the first NPC. Intersects:
-  - *Religion and Devotion* (first divine NPC, regardless of
-    Gherman's eventual stance).
-  - *Lore* (Darkmoon Vale, Lumber Consortium, *Hollow's Last Hope*
-    AP material in scope per BL-0026).
+- **Falcon's Hollow / Church of Iomedae opening** anchors the
+  early game in **Andoran's Darkmoon Vale** with **Iomedaean
+  clerics** (stern, valor-coded, honor-bound) as Gherman's first
+  NPC contacts. Loaded three-way tension at minute one: clergy
+  duty + Gherman's atheism + V-Q16 Magnetism pulling individual
+  clerics toward him despite their disapproval. Intersects:
+  - *Religion and Devotion* §3.1 (first divine NPC contact;
+    confrontational rather than gentle baseline).
+  - *Lore - Falcon's Hollow*, *Lore - Faction - Church of
+    Iomedae (Falcon's Hollow)*.
+  - *Lore - Disease - Blackscour* (chapter-2 trigger; the
+    Iomedaean prayers' failure becomes a key setup beat — see
+    deferred D-003).
   - *Crime and Justice* (Lumber Consortium oppression as early
-    political lever).
-  - *Body and Identity* (the chapel discovers and documents
-    Gherman's body state on intake — tattoo, outfit, "wrongness").
-- **Gherman has no patron deity** at game start (resolved RD-Q1
-  this turn). Sarenrae's chapel is his *first NPC contact*, not his
-  faith. Specific stance toward the divine pending V-Q17.
+    political lever; constabulary as early authority contact).
+  - *Body and Identity* (Iomedaean clergy intake-document
+    Gherman's body — tattoo `08`, modern outfit, "wrongness"
+    Aura ambiguous read).
+- **Gherman has no patron deity** (resolved RD-Q1) and is
+  **openly atheist** (resolved V-Q17). The Iomedaean opening is
+  intentionally chosen to *amplify* this tension; he wakes up
+  saved by the faith he refuses.
+
+## 4.6 Gherman as Secondary, Heroes as MCs (resolved this turn)
+
+> **Gherman is the playable PC but is treated as a SECONDARY
+> narrative character. The "heroes" NPCs (yet to be defined) are
+> the anime story's MCs.**
+
+This is a structural framing choice that touches every system:
+
+### 4.6.1 What it means
+
+- The **player controls Gherman**. He is the camera, the
+  inventory, the dialogue input, the mechanical agent.
+- The **anime story being generated** by the simulation has
+  **other characters** as its *protagonists*. They are the
+  emotional/plot center.
+- Gherman is to those heroes as **Vegeta is to Goku, Sasuke to
+  Naruto, Yamcha is sometimes to anyone** — a side character with
+  his own arcs, sometimes pivotal to the heroes' stories,
+  sometimes off doing his own thing, sometimes the romantic
+  interest, sometimes the rival, sometimes the irritant, never
+  the main hero.
+- His apathetic-cynical-world-worn voice profile (V-Q8) and
+  isekai-outsider mystery (V-Q3) and tattoo `08` (V-Q7) and
+  Magnetism / Aura (V-Q16) all fit the **edgy supporting
+  character who steals scenes** archetype rather than the **MC**
+  archetype.
+
+### 4.6.2 Implications across the project
+
+- **Anime-story output** (per §7) frames the heroes as featured
+  subjects. Cinematics, exporter clips, and storyboard panels
+  spotlight them; Gherman appears as participant or witness, not
+  centerpiece. Sometimes he gets his own beats — but the *show*
+  is theirs.
+- **V-Q11 export tooling** (screenshot / clip / panel / episode)
+  prioritizes scenes featuring the heroes, even when Gherman is
+  in them.
+- **V-Q12 anime archetypes** attach to **heroes**, not to
+  Gherman. Gherman's no-archetype rule still stands; the heroes
+  may carry archetype flavor at first surface (deepened through
+  play).
+- **Imported AP / Module "PC slots"** are filled by the **heroes
+  NPCs** by default. Gherman participates *alongside* them in
+  the role he chooses (supporter, rival, observer, antagonist,
+  love interest). The original module's PCs are not Gherman's
+  party; they are *the heroes themselves*.
+- **NPC architecture** gets a new tier above Hero NPC — the
+  **MC NPC** tier — for the heroes (see *NPCs and Companions*
+  §2).
+- **Romance / Relationships** with heroes are highest-stakes
+  bonds. The Magnetism mechanic (V-Q16) interacts with heroes
+  with potentially story-pivoting consequences (his pull on a
+  hero may reroute that hero's arc).
+- **Workflow / Content Pipeline** when importing modules: the
+  module's "the PCs" slot is filled by the heroes NPCs. Gherman
+  is recorded separately as a participant character with chosen
+  role.
+
+### 4.6.3 Open
+
+The **heroes roster** is undefined and is the **single largest
+piece of pending design** spawned by this directive. Tracked as
+V-Q18 below.
 
 ## 5. Solo PC, Lifelike Party
 
@@ -507,8 +582,44 @@ guidance is folded in (per Backlog BL-0022).
 - ~~V-Q17.~~ **Resolved.** Openly atheist (Rahadoumi-style). See
   *Religion and Devotion* §3.1.
 
+### Resolved (this turn)
+
+- ~~V-Q10-followup~~ **Resolved.** Iomedae church (relocated
+  from Sarenrae's chapel per `module:hlh:01-adventure-background`
+  D-004). See §4.3.
+
 ### New (this turn)
 
+- **V-Q18.** **(New, load-bearing.)** **Heroes roster** — the
+  "heroes" NPCs who serve as the anime story's MCs (per §4.6).
+  Define:
+  - **(a) Count** — how many heroes? (Anime cast sizes range from
+    1 protagonist + 2–3 deuteragonists to ~5-person ensemble to
+    very large rotating casts.)
+  - **(b) Identity** — pre-authored canonical heroes, or
+    procedurally chosen from the iconics + community / our
+    invention?
+  - **(c) Composition** — class, ancestry, gender, archetype mix?
+  - **(d) Introduction timing** — meet them in chapter 1, gradually,
+    or one-by-one across chapters?
+  - **(e) Relationship to Gherman** — how does he meet them, and
+    what is his default starting relationship to each
+    (curious / wary / attracted / hostile / indifferent)?
+  - **(f) Mutability** — can the player kill, betray, replace, or
+    promote new heroes during play?
+- **V-Q19.** **(New, paired with V-Q18.)** **Module-PC slot
+  policy.** When importing AP / Module canonical "PC slots" (4
+  generic adventurers, etc.), do the heroes NPCs **always** fill
+  those slots (canonical-rigid), do they fill them
+  **pre-emptively** (the named-heroes are slotted in by default
+  but Gherman can join their party), or do we treat each module's
+  PC slot as a **role-vacancy** Gherman can fill if no hero is
+  assigned?
+- **V-Q20.** **(New.)** **Hero-cycling** under permadeath. If a
+  Hero NPC dies (companion permadeath per *NPCs and Companions*
+  NPC-Q14), do they get replaced (anime-coded "new arc, new
+  cast"), retired permanently (story shrinks), or revived per
+  PF2e RAW (raise dead)?
 - **V-Q16-followup-A** **Magnetism scale** — confirm the four-band
   model (subliminal / noticed / infatuation / obsession) or pick a
   different shape; per-NPC growth curves; reset/decay rules; cap
